@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/simple-grid.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Cursos BEST</title>
+    <link rel="icon" type="image/png" href="../media/favicon.png" sizes="16x16"> </head>
+
+<body>
+    <header>
+        <div class="container"> 
+            <img id="logo" src="../media/BESTlogo.png">
+            <a href="javascript:void(0);" onclick="menu()"><img id="menu-icon" src="../icon/menu.png"></a>
+            
+            <nav id="menu" class="invisible">
+                <ul>
+                    <li> <a href="index.html">BEST VALLADOLID</a>
+                        <ul>
+                            <li><a href="index.html#quienes-somos">Quiénes somos</a></li>
+                            <li><a href="index.html#que-hacemos">Qué hacemos</a></li>
+                            <li><a href="index.html#como-nos-organizamos">Cómo nos organizamos</a></li>
+                        </ul>
+                    </li>
+                    <li> <a class="" href="fibest.html">FiBEST</a>
+                    </li>
+                    <li> <a class="" href="ebec.html">EBEC</a>
+                    </li>
+                    <li> <a href="mailto:valladolid@BEST.org">CONTACTA</a> </li>
+                    <li> <a class="actual" href="">CURSOS BEST</a> </li>
+                </ul>
+            </nav>
+            <!-- fin menu -->
+        </div>
+    </header>
+    
+    <script> 
+        /* script menú */
+        function menu() {
+            var x = document.getElementById("menu");
+            if (x.className == "visible") {
+                x.className = "invisible";
+            } else {
+                x.className = "visible";
+            }
+        }
+    </script>
+    
+    <div id="header-gap"></div>
+    <!-- para no tener problemas con el menú "fixed" -->
+    <section id="piramide" class="crazy-padding">
+        <div class="container">
+            <h1 class="center big-title">Cursos BEST</h1>
+            <h2 class="center">Viaja, aprende, disfruta.</h2>
+        </div>
+    </section>
+    
+    <section class="white-background">
+        <div class="container  row">
+            <div class="col-6">
+                <div class="inmense-padding">
+                    <h1>¿Qué son?.</h1>
+                    
+                    <p>Los cursos de BEST son eventos de entre 7 y 15 días de duración en los que se reúnen estudiantes de diversos países de Europa para tratar temas de carácter tecnológico o de materias complementarias a su formación.</p>
+                    
+                    <p>El temario no se imparte sólo mediante clases sino que también se realizan <b>diversos talleres, visitas a empresas, coloquios</b> y demás formatos para que el aprendizaje sea más ameno y diverso.</p>
+                    
+                    <p>Aparte de las actividades de aprendizaje, también se llevarán a cabo <b>actividades sociales, visitas culturales y turísticas</b> que harán del curso una experiencia inolvidable. Conocerás a muchos estudiantes de culturas totalmente distintas y no te arrepentirás.</p>
+                    
+                    <p>Además, <b>hay cursos a lo largo de todo el año</b>. Cada estación se publica una oferta distinta con destinos distintos entre las 95 universidades en las que estamos presentes en toda Europa.</p>
+                </div>
+            </div>
+            <div class="col-6" style="padding-top: 120px;">
+                <img src="../media/img/mapa.jpg" width="90%;" style="float: right">
+            </div>
+        </div>
+    </section>
+    
+    <section id="viajar" class="crazy-padding">
+        <div class="container">
+            <h1 class="right medium-title">Viaja...</h1>
+        </div>
+    </section>
+    
+    <section id="aprender" class="crazy-padding">
+        <div class="container">
+            <h1 class="center medium-title">...aprende...</h1>
+        </div>
+    </section>
+    
+    <section id="gente" class="crazy-padding">
+        <div class="container">
+            <h1 class="left medium-title">...conoce gente nueva...</h1>
+        </div>
+    </section>
+    
+    <section class="white-background">
+        <div class="container">
+            <h1 class="medium-title center big-padding" style="color: #666" >¡y mucho más!</h1>
+        </div>
+    </section>
+    
+    <!--<section class="white-background" style="background-color: #eee">
+        <div class="container">
+            <h2 class="big-padding">No esperes más. Solicita tu curso ya en <a href="https://best.eu.org/courses" style="color: #333">www.best.eu.org/courses</a>.</h2>
+        </div>
+    </section>-->    
+    
+    <section id="portatil">
+        <div class="container iinmense-padding row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h1>No esperes más.</h1>
+                <h3>Solicita tu curso ya en <a href="https://best.eu.org/courses" style="color: white" target="_blank">www.best.eu.org/courses</a></h3>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p class="center">Copyright &copy; 2016 BEST Valladolid</p>
+    </footer>
+</body>
+</html>
