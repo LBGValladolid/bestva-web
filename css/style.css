@@ -559,6 +559,10 @@ ul {
     text-shadow: 0px 0px 20px rgba(55, 55, 55, 0.55);
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+}
 
 
 .normal-padding {
@@ -596,7 +600,7 @@ ul {
 }
 
 .medium-title {
-    font-size: 75px;
+    font-size: 60px;
 }
 
 @media(max-width: 720px) {
@@ -604,7 +608,7 @@ ul {
         font-size: 80px
     }
     
-    .medium-title {
+    .medium-ti5tle {
         font-size: 60px;
     }
 }
@@ -613,4 +617,19 @@ ul {
     border-radius: 50%;
     padding: 0%;
     width: 100%;
+}
+
+
+.contact-icon {
+}
+
+.contact-icon:hover {
+    background-color: #eee;
+    border-radius: 20px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.contact-icon img {
+    width: 60px;
+    margin: 0 auto;
 }
