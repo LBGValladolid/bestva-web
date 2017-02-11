@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/simple-grid.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>EBEC</title>
+    <link rel="icon" type="image/png" href="media/favicon.png" sizes="16x16"> </head>
+
+<body>
+    <header>
+        <div class="container"> 
+            <img id="logo" src="media/BESTlogo.png">
+            <a href="javascript:void(0);" onclick="menu()"><img id="menu-icon" src="icon/menu.png"></a>
+            
+            <nav id="menu" class="invisible">
+                <ul>
+                    <li> <a href="index.html">BEST VALLADOLID</a>
+                        <ul>
+                            <li><a href="index.html#quienes-somos">Quiénes somos</a></li>
+                            <li><a href="index.html#que-hacemos">Qué hacemos</a></li>
+                            <li><a href="index.html#como-nos-organizamos">Cómo nos organizamos</a></li>
+                        </ul>
+                    </li>
+                    <li> 
+                        <a class="" href="fibest.html">FiBEST</a>
+                    </li>
+                    <li>
+                        <a class="actual" href="ebec.html">EBEC</a>
+                    </li>
+                    <li> 
+                        <a class="" href="contacta.html">CONTACTA</a> 
+                    </li>
+                    <li> 
+                        <a class="" href="cursos.html">CURSOS BEST</a> 
+                    </li>
+                </ul>
+            </nav>
+            <!-- fin menu -->
+        </div>
+    </header>
+    
+    <script> 
+        /* script menú */
+        function menu() {
+            var x = document.getElementById("menu");
+            if (x.className == "visible") {
+                x.className = "invisible";
+            } else {
+                x.className = "visible";
+            }
+        }
+    </script>
+    
+    <div id="header-gap"></div>
+    <!-- para no tener problemas con el menú "fixed" -->
+    <section id="impresoras" class="crazy-padding">
+        <div class="container">
+            <h1 class="center big-title">EBEC</h1>
+            <h2 class="center">European BEST Engenineering Competition.</h2>
+        </div>
+    </section>
+    
+    <section class="white-background">
+        <div class="container  row">
+            <div class="col-7">
+                <div class="iinmense-padding">
+                    <h1>Tres rondas.</h1>
+                    <p>La European BEST Engeneering Competition está englobada en la pirámide de la EBEC. Dicha pirámide está compuesta por 83 rondas locales, 15 rondas nacionales o regionales y una última fase final. De cada una de ellas saldrán los estudiantes participantes que logren superar las pruebas propuestas en cada categoría.  </p>
+                </div>
+            </div>
+            <div class="col-5" style="padding-top: 140px;">
+                <img src="media/img/piramide.png" width="90%;" style="float: right">
+            </div>
+        </div>
+    </section>
+    
+    <section class="white-background" style="background-color: #eee">
+        <div class="container">
+            <h1 class="huge-padding center">Dos categorías.</h1>
+            <div class="row">
+                <div class="col-5">
+                    <img src="media/img/case_study.jpg" class="circular">
+                    <div class="big-padding">
+                        <h2 >Case Study</h2>
+
+                        <p>La categoría “Case Study”, surge del planteamiento de problemas prácticos que debido a su embergadura y realismo no es posible realizar una maqueta funcional de los mismos, estos brindan a las empresas la oportunidad de conocer y aprovechar el alto nivel de los participantes y evaluarles en persona. La empresa plantea un problema técnico o empresarial, y los estudiantes deben proponer la mejor solución.</p>
+
+                        <p>Los participantes tendrán que analizar la situación planteada, debatir en equipo las posibles soluciones, y escribir un informe con la idea que les parezca mejor en términos de viabilidad, rentabilidad, eficiencia y eficacia. Serán los miembros de la comunidad universitaria y los miembros de las empresas los que valoren la calidad de las soluciones propuestas, y escojan al ganador.</p>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-5">
+                    <img src="media/img/team_design.jpg" class="circular">
+                    <div class="big-padding">
+                        <h2>Team Design</h2>
+
+                        <p>El “Team Design”, es uno de los más reconocidos, visibles y espectaculares eventos organizados en todas las competiciones de BEST. </p>
+                        <p>En él, se plantea un ejercicio práctico de ingeniería, para que los estudiantes diseñen, proyecten y elaboren con sus propias manos el mecanismo más apropiado.</p>
+                        <p>Los participantes deben elaborar con el menor gasto posible una maqueta perfectamente funcional, que solucione del modo más eficiente y original el problema propuesto. Al final de la competición, expondrán públicamente sus diseños, que serán valorados por el jurado compuesto por miembros de la comunidad universitaria y empresas colaboradoras.  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    
+    <section id="portatil">
+        <div class="container iinmense-padding row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h1>¿Quieres saber más?</h1>
+                <h3>Encuentra más información en <a href="http://www.ebecvalladolid.org" style="color: white" target="_blank">www.EBECValladolid.org</a></h3>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p class="center">Copyright &copy; 2017 BEST Valladolid</p>
+    </footer>
+</body>
+</html>

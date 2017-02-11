@@ -1,8 +1,3 @@
-/*
-Hecho por Héctor Sáenz Niño para BEST Valladolid
-*/
-
-
 html, body, p {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
@@ -595,12 +590,24 @@ ul {
     padding-bottom: 300px;
 }
 
+
+
 .big-title {
-    font-size: 130px
+    font-size: 60px;
 }
 
 .medium-title {
-    font-size: 60px;
+    font-size: 30px;
+}
+
+@media (min-width: 720px) { /* Parte ancha */
+	.big-title {
+	    font-size: 130px
+	}
+
+	.medium-title {
+	    font-size: 60px;
+	}
 }
 
 @media(max-width: 720px) {

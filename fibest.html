@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/simple-grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>FiBEST</title>
+    <link rel="icon" type="image/png" href="media/favicon.png" sizes="16x16"> </head>
+
+<body>
+    <header>
+        <div class="container"> 
+            <img id="logo" src="media/BESTlogo.png">
+            <a href="javascript:void(0);" onclick="menu()"><img id="menu-icon" src="icon/menu.png"></a>
+            
+            <nav id="menu" class="invisible">
+                <ul>
+                    <li> <a href="index.html">BEST VALLADOLID</a>
+                        <ul>
+                            <li><a href="index.html#quienes-somos">Quiénes somos</a></li>
+                            <li><a href="index.html#que-hacemos">Qué hacemos</a></li>
+                            <li><a href="index.html#como-nos-organizamos">Cómo nos organizamos</a></li>
+                        </ul>
+                    </li>
+                    <li> 
+                        <a class="actual" href="fibest.html">FiBEST</a>
+                    </li>
+                    <li>
+                        <a class="" href="ebec.html">EBEC</a>
+                    </li>
+                    <li> 
+                        <a class="" href="contacta.html">CONTACTA</a> 
+                    </li>
+                    <li> 
+                        <a class="" href="cursos.html">CURSOS BEST</a> 
+                    </li>
+                </ul>
+            </nav>
+            <!-- fin menu -->
+        </div>
+    </header>
+    
+    <script> 
+        /* script menú */
+        function menu() {
+            var x = document.getElementById("menu");
+            if (x.className == "visible") {
+                x.className = "invisible";
+            } else {
+                x.className = "visible";
+            }
+        }
+    </script>
+    
+    <div id="header-gap"></div>
+    <!-- para no tener problemas con el menú "fixed" -->
+    <section id="fibest-buscando" class="crazy-padding">
+        <div class="container">
+            <h1 class="center big-title">FiBEST</h1>
+            <h2 class="center">Tu foro de empleo en Castilla y León. Te esperamos el 15 de marzo.</h2>
+        </div>
+    </section>
+    
+    <section class="white-background">
+        <div class="container huge-padding">
+            <h1>Qué es FiBEST</h1>
+            <p>FiBEST, catalogado como el Foro de Empleo <b>más grande de Castilla y León</b>, tiene una característica que lo hace único: es organizado por quienes mejor conocen la situación de los estudiantes y recién titulados, los propios estudiantes.</p>
+            
+            <p>Nuestro principal objetivo es facilitar el primer paso al mundo laboral creando un <b>punto de encuentro entre universitarios, empresas e instituciones</b>. Además, siguiendo este objetivo, se realizan una serie de actividades alrededor de la fecha del foro encaminadas a que los estudiantes se preparen para su futura vida laboral.</p>
+                
+            <p>FiBEST ha sido creado, implementado y desarrollado por alumnos pertenecientes a la asociación BEST (Board of European Students of Technology) de Valladolid. El evento cuenta con el apoyo de las siguientes instituciones públicas: la Universidad de Valladolid, la Junta de Castilla y León a través del servicio público de empleo, ECyL, la Diputación y el Ayuntamiento de Valladolid.</p>
+        </div>
+    </section>
+    
+    <section id="portatil">
+        <div class="container iinmense-padding row">
+            <div class="col-2"></div>
+            <div class="col-10">
+                <h1>¿Quieres saber más?</h1>
+                <h3>Encuentra más información en <a href="http://www.fibest.org" style="color: white" target="_blank">www.FiBEST.org</a></h3>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p class="center">Copyright &copy; 2017 BEST Valladolid</p>
+    </footer>
+</body>
+</html>
