@@ -255,6 +255,14 @@ header {
     }
 }
 
+/* Centrar */
+.centered {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* Listas */
 
 .lista-normal {
