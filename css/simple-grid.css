@@ -44,6 +44,7 @@
 }
 
 .col-1,
+.col-1-8,
 .col-2,
 .col-3,
 .col-4,
@@ -125,6 +126,10 @@
 @media only screen and (min-width: 45em) {  /* 720px */
   .col-1 {
     width: 4.33%;
+  }
+
+  .col-1-8 {
+    width: 12.45%;
   }
 
   .col-2 {
