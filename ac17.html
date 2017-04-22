@@ -84,8 +84,8 @@
                 <br><br> See you in the incredible and amazing Valladolid! :)
             </p>
             <div class="normal-padding"></div>
-            <iframe style="padding: 0 10%"width="80%" height="480px"
-            src="https://www.youtube.com/embed/3PWrKg9fZ2M" frameborder="0" allowfullscreen></iframe>
+            <iframe style="padding: 0 10%" width="80%" height="480px" src="https://www.youtube.com/embed/3PWrKg9fZ2M" frameborder="0"
+                allowfullscreen></iframe>
         </div>
     </section>
 
@@ -112,6 +112,8 @@
 
                 <div class="col-5">
                     <img src="media/ac17/prueba/Edu_Estatico.jpg" class="circular" id="main2">
+                    <img src="media/ac17/prueba/Edu_Dando.gif" style="display: none">
+                    <img src="media/ac17/prueba/Edu_Recibe.gif" style="display: none">
                     <div class="huge-padding">
                         <h2>Eduardo Giralda</h2>
                         <p>
@@ -130,6 +132,8 @@
                 <div class="col-2"></div>
                 <div class="col-5">
                     <img src="media/ac17/prueba/Gordo_Estatico.jpg" class="circular" id="main1">
+                    <img src="media/ac17/prueba/Gordo_Dando.gif" style="display: none">
+                    <img src="media/ac17/prueba/Gordo_Recibe.gif" style="display: none">
                     <div class="huge-padding">
                         <h2>Luis Miguel Gordo</h2>
                         <p>
@@ -179,6 +183,11 @@
         function mouseOverMain2() {
             main1.src = "media/ac17/prueba/Gordo_Recibe.gif"
             main2.src = "media/ac17/prueba/Edu_Dando.gif"
+        }
+
+        function preloadImage(url) {
+            var img = new Image();
+            img.src = url;
         }
     </script>
 
