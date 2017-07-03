@@ -26,7 +26,7 @@ def htmlSomos():
         if(i % 6 == 0):
             htmlSomos.append('            <div class="row">\n')
             cerrado = False
-        htmlSomos.append('                <div class="col-2">\n')
+        htmlSomos.append('                <div class="col-2-sm">\n')
         htmlSomos.append('                    <img src="media/somos/' + csv[i][1] + '" class="circular">\n')
         htmlSomos.append('                    <p class="center">' + csv[i][0] +'</p>\n')
         htmlSomos.append('                </div>\n')
