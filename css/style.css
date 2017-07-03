@@ -598,8 +598,6 @@ ul {
     padding-bottom: 300px;
 }
 
-
-
 .big-title {
     font-size: 60px;
 }
@@ -647,4 +645,9 @@ ul {
 .contact-icon img {
     width: 60px;
     margin: 0 auto;
+}
+
+.patrocinador {
+    margin: 10%;
+    width: 80%;
 }
