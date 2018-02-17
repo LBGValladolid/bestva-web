@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 <head>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/simple-grid.css">
@@ -9,63 +9,75 @@
     <title>BEST Valladolid</title>
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/png" href="media/favicon.png" sizes="16x16"> </head>
+    <link rel="icon" type="image/png" href="media/favicon.png" sizes="16x16"> <script src="javascript/functions.js"></script>
+</head>
 
 <body>
-
     <header>
         <div class="container">
             <img id="logo" src="media/BESTlogo.png">
-            <a href="javascript:void(0);" onclick="menu()"><img id="menu-icon" src="icon/menu.png"></a>
+            <a href="javascript:void(0);" onclick="menu()">
+                <img id="menu-icon" src="icon/menu.png">
+            </a>
 
             <nav id="menu" class="invisible">
                 <ul>
-                    <li> <a class="actual" href="index.html">BEST VALLADOLID</a>
+                    <li>
+                        <a class="actual" href="index.html" trd="nav.bestva.title">BEST VALLADOLID</a>
                         <ul>
-                            <li><a href="index.html#quienes-somos">Quiénes somos</a></li>
-                            <li><a href="index.html#que-hacemos">Qué hacemos</a></li>
-                            <li><a href="index.html#como-nos-organizamos">Cómo nos organizamos</a></li>
-                            <li><a href="index.html#miembros">Miembros</a></li>
+                            <li>
+                                <a href="index.html#quienes-somos" trd="nav.bestva.who">Quiénes somos</a>
+                            </li>
+                            <li>
+                                <a href="index.html#que-hacemos" trd="nav.bestva.what">Qué hacemos</a>
+                            </li>
+                            <li>
+                                <a href="index.html#como-nos-organizamos" trd="nav.bestva.how">Cómo nos organizamos</a>
+                            </li>
+                            <li>
+                                <a href="index.html#miembros" trd="nav.bestva.members">Miembros</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
-                        <a class="" href="fibest.html">FiBEST</a>
+                        <a class="" href="fibest.html" trd="nav.fibest.title">FiBEST</a>
                     </li>
                     <li>
-                        <a class="" href="ebec.html">EBEC</a>
+                        <a class="" href="ebec.html" trd="nav.ebec.title">EBEC</a>
                     </li>
                     <li>
-                        <a class="" href="cursos.html">CURSOS BEST</a>
+                        <a class="" href="cursos.html" trd="nav.courses.title">CURSOS BEST</a>
                     </li>
                     <li>
-                        <a class="" href="ac17.html">AUTUMN COURSE 2017</a>
+                        <a class="" href="ac17.html" trd="nav.ac.title">AUTUMN COURSE 2017</a>
                         <!-- Cambiar -->
                         <ul>
-                            <li><a href="ac17.html#descripcion">Course Description</a></li>
-                            <li><a href="ac17.html#schedule">Schedule</a></li>
-                            <li><a href="ac17.html#patrocinadores">Empresas Colaboradoras</a></li>
-                            <li><a href="ac17.html#mains">Main Organizers</a></li>
+                            <li>
+                                <a href="ac17.html#descripcion" trd="nav.ac.description">Course Description</a>
+                            </li>
+                            <li>
+                                <a href="ac17.html#schedule" trd="nav.ac.schedule">Schedule</a>
+                            </li>
+                            <li>
+                                <a href="ac17.html#patrocinadores" trd="nav.ac.sponsors">Empresas Colaboradoras</a>
+                            </li>
+                            <li>
+                                <a href="ac17.html#mains" trd="nav.ac.mains">Main Organizers</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
-                        <a class="" href="contacta.html">CONTACTA</a>
+                        <a class="" href="contacta.html" trd="nav.contact.title">CONTACTA</a>
+                    </li>
+                    <li class="nav-lang">
+                        <a href="#" onclick="loadLangFile('en')" id="en">EN</a>
+                        <a href="#" onclick="loadLangFile('es')" id="es">ES</a>
                     </li>
                 </ul>
             </nav>
             <!-- fin menu -->
         </div>
     </header>
-
-    <script>
-        function menu() {
-            var x = document.getElementById("menu");
-            if (x.className == "visible") {
-                x.className = "invisible";
-            } else {
-                x.className = "visible";
-            }
-        }
-    </script>
-
 
     <div id="header-gap"></div>
     <section id="slider">
@@ -105,26 +117,26 @@
     <!-- para no tener problemas con el menú "fixed" -->
     <section class="white-background">
         <div class="container big-padding">
-            <h1>Quiénes somos</h1>
-            <p>BEST Valladolid es el grupo local de BEST de la Universidad de Valladolid y fue fundado en el año 1994.</p>
-            <p>Durante estos 20 años de existencia, hemos trabajado con un objetivo constante: poner toda nuestra fe, emoción y entusiasmo en todo lo que hacemos para lograr que nuestros proyectos sean un éxito.</p>
-            <p>BEST Valladolid es un grupo que siempre ha buscado grandes metas y desafíos y estamos siempre preparados para otros aún más grandes.</p>
-            <p>Nuestro grupo local está formado por cerca de 30 miembros activos de diferentes carreras universitarias basado en el trabajo en equipo.</p>
-            <p>Todos nosotros somos estudiantes universitarios, y dedicamos parte de nuestro tiempo libre a BEST.</p>
-            <p>Aproximadamente cada 15 días nos reunimos para hablar de nuestros próximos eventos donde contamos los avances que han tenido lugar en los últimos días, aunque la mayoría de nuestro trabajo lo realizamos vía online o a través del correo electrónico.</p>
+            <h1 trd="bestva.who.title">Quiénes somos</h1>
+            <p trd="bestva.who.p1">BEST Valladolid es el grupo local de BEST de la Universidad de Valladolid y fue fundado en el año 1994.</p>
+            <p trd="bestva.who.p2">Durante estos 20 años de existencia, hemos trabajado con un objetivo constante: poner toda nuestra fe, emoción y entusiasmo en todo lo que hacemos para lograr que nuestros proyectos sean un éxito.</p>
+            <p trd="bestva.who.p3">BEST Valladolid es un grupo que siempre ha buscado grandes metas y desafíos y estamos siempre preparados para otros aún más grandes.</p>
+            <p trd="bestva.who.p4">Nuestro grupo local está formado por cerca de 30 miembros activos de diferentes carreras universitarias basado en el trabajo en equipo.</p>
+            <p trd="bestva.who.p5">Todos nosotros somos estudiantes universitarios, y dedicamos parte de nuestro tiempo libre a BEST.</p>
+            <p trd="bestva.who.p6">Aproximadamente cada 15 días nos reunimos para hablar de nuestros próximos eventos donde contamos los avances que han tenido lugar en los últimos días, aunque la mayoría de nuestro trabajo lo realizamos vía online o a través del correo electrónico.</p>
         </div>
     </section>
     <div id="que-hacemos" class="anchor"></div>
     <!-- para no tener problemas con el menú "fixed" -->
     <section class="orange-background">
         <div class="container thin-title normal-padding">
-            <h1>Qué hacemos</h1> </div>
+            <h1 trd="bestva.what.title">Qué hacemos</h1> </div>
     </section>
     <section id="ebec" class="inmense-padding">
         <div class="container row">
             <div class="col-6">
-                <h2>Competición de ingeniería EBEC,</h2>
-                <p>En la que equipos de estudiantes de la Universidad de Valladolid compiten por una plaza en la ronda nacional, EBEC Spain. En ella, se medirán a otros 5 equipos de universidades españolas poniendo a prueba su ingenio y habilidades para
+                <h2 trd="bestva.what.ebec.title">Competición de ingeniería EBEC,</h2>
+                <p trd="bestva.what.ebec.description">En la que equipos de estudiantes de la Universidad de Valladolid compiten por una plaza en la ronda nacional, EBEC Spain. En ella, se medirán a otros 5 equipos de universidades españolas poniendo a prueba su ingenio y habilidades para
                     lograr una plaza en la final Europea, que este año se celebrará en Oporto.</p>
             </div>
         </div>
@@ -133,8 +145,8 @@
         <div class="container row">
             <div class="col-6"> </div>
             <div class="col-6">
-                <h2>Foro de empleo FiBEST</h2>
-                <p>Único foro de empleo de la ciudad de Valladolid, el más consagrado (15 exitosas ediciones consecutivas) y el de mayor dimensión (80 empresas participantes en las últimas 4 ediciones) de toda la comunidad autónoma de Castilla y León. Se
+                <h2 trd="bestva.what.fibest.title">Foro de empleo FiBEST</h2>
+                <p trd="bestva.what.fibest.description">Único foro de empleo de la ciudad de Valladolid, el más consagrado (15 exitosas ediciones consecutivas) y el de mayor dimensión (80 empresas participantes en las últimas 4 ediciones) de toda la comunidad autónoma de Castilla y León. Se
                     trata de un foro de empleo creado y organizado en su totalidad por y para estudiantes y se realiza en el mes de marzo.</p>
             </div>
         </div>
@@ -143,8 +155,8 @@
     <section id="curso" class="inmense-padding">
         <div class="container row">
             <div class="col-6">
-                <h2>Curso de otoño</h2>
-                <p>Realizado durante el mes de septiembre, donde estudiantes de carreras tecnológicas procedentes de toda Europa acuden para la realización de un curso complementario a su formación de 12 días a la vez que aprenden sobre la cultura española
+                <h2 trd="bestva.what.ac.title">Curso de otoño</h2>
+                <p trd="bestva.what.ac.description">Realizado durante el mes de septiembre, donde estudiantes de carreras tecnológicas procedentes de toda Europa acuden para la realización de un curso complementario a su formación de 12 días a la vez que aprenden sobre la cultura española
                     y más particularmente sobre la ciudad de Valladolid.</p>
             </div>
         </div>
@@ -152,7 +164,7 @@
 
     <section class="white-background">
         <div class="container big-padding">
-            <p>Sin embargo, esto no es lo único que hacemos durante todo el año. También llevamos a cabo cada agosto un Intercambio Cultural en el que diez personas de cada uno de dos grupos locales de BEST de diferentes países vienen a Valladolid para tomar
+            <p trd="bestva.what.more">Sin embargo, esto no es lo único que hacemos durante todo el año. También llevamos a cabo cada agosto un Intercambio Cultural en el que diez personas de cada uno de dos grupos locales de BEST de diferentes países vienen a Valladolid para tomar
                 contacto con nuestra gastronomía y costumbres, o incluso otro tipo de eventos como la Asamblea General de BEST que se llevó a cabo en abril de 2013.</p>
         </div>
     </section>
@@ -161,28 +173,28 @@
     <!-- para no tener problemas con el menú "fixed" -->
     <section class="green-background">
         <div class="container big-padding">
-            <h1>Cómo nos organizamos</h1>
+            <h1 trd="bestva.how.title">Cómo nos organizamos</h1>
             <!-- Listas con iconos diferentes: http://www.w3schools.com/css/css_list.asp -->
-            <p>Cada grupo local de BEST tiene una junta directiva o <b>Board</b>. En Valladolid está formada por cinco miembros:</p>
+            <p trd="bestva.how.board.title">Cada grupo local de BEST tiene una junta directiva o <b>Board</b>. En Valladolid está formada por cinco miembros:</p>
             <ul class="lista-normal">
-                <li>Presidente.</li>
-                <li>Secretario.</li>
-                <li>Tesorero.</li>
-                <li>Vicepresidente de Eventos.</li>
-                <li>Vicepresidente de Recursos Humanos.</li>
+                <li trd="bestva.how.board.president">Presidente.</li>
+                <li trd="bestva.how.board.secretary">Secretario.</li>
+                <li trd="bestva.how.board.treasurer">Tesorero.</li>
+                <li trd="bestva.how.board.vpe">Vicepresidente de Eventos.</li>
+                <li trd="bestva.how.board.vphr">Vicepresidente de Recursos Humanos.</li>
             </ul>
-            <p>Nos dividimos en 5 grupos de trabajo en los que todos los miembros pueden ayudar en lo que más les guste: </p>
+            <p trd="bestva.how.wg.title">Nos dividimos en 5 grupos de trabajo en los que todos los miembros pueden ayudar en lo que más les guste: </p>
             <ul class="lista-icono">
-                <li id="design"><b>Design: </b>se encarga de la elaboración de los materiales promocionales de todos nuestros eventos: posters, dossieres, acreditaciones...</li>
-                <li id="medios"><b>Medios: </b>es el grupo de contacto con los medios de comunicación (periódicos, radio, televisión) con el fin de difundir nuestras actividades.</li>
-                <li id="it"><b>IT (Information Technology): </b> se encarga del mantenimiento y desarrollo de los sistemas informáticos de la asociación. Esta web, por ejemplo, ha sido realizada por este grupo.</li>
-                <li id="fr"><b>FR (Funds Raising): </b>lleva a cabo la financiación de la organización de eventos a través de colaboraciones con empresas, fundaciones y la universidad.</li>
-                <li id="ep"><b>EP (External Promotion): </b>se dedica al diseño de estrategias de promoción y difusión de las actividades que ofrecemos así como los cursos que organizan el resto grupos locales de toda Europa, así como dar a conocer nuestra asociación
+                <li id="design" trd="bestva.how.wg.design"><b>Design: </b>se encarga de la elaboración de los materiales promocionales de todos nuestros eventos: posters, dossieres, acreditaciones...</li>
+                <li id="medios" trd="bestva.how.wg.media"><b>Medios: </b>es el grupo de contacto con los medios de comunicación (periódicos, radio, televisión) con el fin de difundir nuestras actividades.</li>
+                <li id="it" trd="bestva.how.wg.it"><b>IT (Information Technology): </b> se encarga del mantenimiento y desarrollo de los sistemas informáticos de la asociación. Esta web, por ejemplo, ha sido realizada por este grupo.</li>
+                <li id="fr" trd="bestva.how.wg.fr"><b>FR (Funds Raising): </b>lleva a cabo la financiación de la organización de eventos a través de colaboraciones con empresas, fundaciones y la universidad.</li>
+                <li id="ep" trd="bestva.how.wg.ep"><b>EP (External Promotion): </b>se dedica al diseño de estrategias de promoción y difusión de las actividades que ofrecemos así como los cursos que organizan el resto grupos locales de toda Europa, así como dar a conocer nuestra asociación
                     en la Universidad de Valladolid.</li>
             </ul>
-            <p>Y también contamos con la figura de:</p>
+            <p trd="bestva.how.wg.also">Y también contamos con la figura de:</p>
             <ul class="lista-icono">
-                <li id="cm"><b>Community Manager: </b>responsable de la comunicación a través de redes sociales.</li>
+                <li id="cm" trd="bestva.how.wg.cm"><b>Community Manager: </b>responsable de la comunicación a través de redes sociales.</li>
             </ul>
         </div>
     </section>
@@ -192,7 +204,7 @@
 
     <section class="white-background">
         <div class="container big-padding">
-            <h1 style="margin-bottom: 30px">Miembros</h1>
+            <h1 style="margin-bottom: 30px" trd="bestva.members">Miembros</h1>
             <!-- No borrar estos comentarios: necesarios para el script -->
             <!-- FLAG-INICIO -->
             <div class="row">
@@ -313,6 +325,12 @@
         </div>
     </section>
     <footer>
-        <p class="center">Copyright &copy; 2017 BEST Valladolid</p>
+        <p class="center">
+            &copy; 2018 BEST Valladolid</p>
     </footer>
+
 </body>
+<script>
+    loadLangFile();
+</script>
+</html>

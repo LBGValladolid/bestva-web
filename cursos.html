@@ -12,44 +12,69 @@
     <meta name="viewport" content="width=device-width" />
     <title>Cursos BEST</title>
     <link rel="icon" type="image/png" href="../media/favicon.png" sizes="16x16"> </head>
+    <link rel="icon" type="image/png" href="media/favicon.png" sizes="16x16"> <script src="javascript/functions.js"></script>
+</head>
 
 <body>
     <header>
         <div class="container">
             <img id="logo" src="media/BESTlogo.png">
-            <a href="javascript:void(0);" onclick="menu()"><img id="menu-icon" src="icon/menu.png"></a>
+            <a href="javascript:void(0);" onclick="menu()">
+                <img id="menu-icon" src="icon/menu.png">
+            </a>
 
             <nav id="menu" class="invisible">
                 <ul>
-                    <li> <a class="" href="index.html">BEST VALLADOLID</a>
+                    <li>
+                        <a class="" href="index.html" trd="nav.bestva.title">BEST VALLADOLID</a>
                         <ul>
-                            <li><a href="index.html#quienes-somos">Quiénes somos</a></li>
-                            <li><a href="index.html#que-hacemos">Qué hacemos</a></li>
-                            <li><a href="index.html#como-nos-organizamos">Cómo nos organizamos</a></li>
-                            <li><a href="index.html#miembros">Miembros</a></li>
+                            <li>
+                                <a href="index.html#quienes-somos" trd="nav.bestva.who">Quiénes somos</a>
+                            </li>
+                            <li>
+                                <a href="index.html#que-hacemos" trd="nav.bestva.what">Qué hacemos</a>
+                            </li>
+                            <li>
+                                <a href="index.html#como-nos-organizamos" trd="nav.bestva.how">Cómo nos organizamos</a>
+                            </li>
+                            <li>
+                                <a href="index.html#miembros" trd="nav.bestva.members">Miembros</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
-                        <a class="" href="fibest.html">FiBEST</a>
+                        <a class="" href="fibest.html" trd="nav.fibest.title">FiBEST</a>
                     </li>
                     <li>
-                        <a class="" href="ebec.html">EBEC</a>
+                        <a class="" href="ebec.html" trd="nav.ebec.title">EBEC</a>
                     </li>
                     <li>
-                        <a class="actual" href="cursos.html">CURSOS BEST</a>
+                        <a class="actual" href="cursos.html" trd="nav.courses.title">CURSOS BEST</a>
                     </li>
                     <li>
-                        <a class="" href="ac17.html">AUTUMN COURSE 2017</a>
+                        <a class="" href="ac17.html" trd="nav.ac.title">AUTUMN COURSE 2017</a>
                         <!-- Cambiar -->
                         <ul>
-                            <li><a href="ac17.html#descripcion">Course Description</a></li>
-                            <li><a href="ac17.html#schedule">Schedule</a></li>
-                            <li><a href="ac17.html#patrocinadores">Empresas Colaboradoras</a></li>
-                            <li><a href="ac17.html#mains">Main Organizers</a></li>
+                            <li>
+                                <a href="ac17.html#descripcion" trd="nav.ac.description">Course Description</a>
+                            </li>
+                            <li>
+                                <a href="ac17.html#schedule" trd="nav.ac.schedule">Schedule</a>
+                            </li>
+                            <li>
+                                <a href="ac17.html#patrocinadores" trd="nav.ac.sponsors">Empresas Colaboradoras</a>
+                            </li>
+                            <li>
+                                <a href="ac17.html#mains" trd="nav.ac.mains">Main Organizers</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
-                        <a class="" href="contacta.html">CONTACTA</a>
+                        <a class="" href="contacta.html" trd="nav.contact.title">CONTACTA</a>
+                    </li>
+                    <li class="nav-lang">
+                        <a href="#" onclick="loadLangFile('en')" id="en">EN</a>
+                        <a href="#" onclick="loadLangFile('es')" id="es">ES</a>
                     </li>
                 </ul>
             </nav>
@@ -57,24 +82,12 @@
         </div>
     </header>
 
-    <script>
-        /* script menú */
-        function menu() {
-            var x = document.getElementById("menu");
-            if (x.className == "visible") {
-                x.className = "invisible";
-            } else {
-                x.className = "visible";
-            }
-        }
-    </script>
-
     <div id="header-gap"></div>
     <!-- para no tener problemas con el menú "fixed" -->
     <section id="piramide" class="crazy-padding">
         <div class="container">
-            <h1 class="center big-title">Cursos BEST</h1>
-            <h2 class="center">Viaja, aprende, disfruta.</h2>
+            <h1 class="center big-title" trd="courses.title">Cursos BEST</h1>
+            <h2 class="center" trd="courses.subtitle">Viaja, aprende, disfruta.</h2>
         </div>
     </section>
 
@@ -82,16 +95,15 @@
         <div class="container  row">
             <div class="col-6">
                 <div class="inmense-padding">
-                    <h1>¿Qué son?.</h1>
+                    <h1 trd="courses.what.title">¿Qué son?</h1>
 
-                    <p>Los cursos de BEST son eventos de entre 7 y 15 días de duración en los que se reúnen estudiantes de diversos países de Europa para tratar temas de carácter tecnológico o de materias complementarias a su formación.</p>
+                    <p trd="courses.what.p1">Los cursos de BEST son eventos de entre 7 y 15 días de duración en los que se reúnen estudiantes de diversos países de Europa para tratar temas de carácter tecnológico o de materias complementarias a su formación.</p>
 
-                    <p>El temario no se imparte sólo mediante clases sino que también se realizan <b>diversos talleres, visitas a empresas, coloquios</b> y demás formatos para que el aprendizaje sea más ameno y diverso.</p>
+                    <p trd="courses.what.p2">El temario no se imparte sólo mediante clases sino que también se realizan <b>diversos talleres, visitas a empresas, coloquios</b> y demás formatos para que el aprendizaje sea más ameno y diverso.</p>
 
-                    <p>Aparte de las actividades de aprendizaje, también se llevarán a cabo <b>actividades sociales, visitas culturales y turísticas</b> que harán del curso una experiencia inolvidable. Conocerás a muchos estudiantes de culturas totalmente
-                        distintas y no te arrepentirás.</p>
+                    <p trd="courses.what.p3">Aparte de las actividades de aprendizaje, también se llevarán a cabo <b>actividades sociales, visitas culturales y turísticas</b> que harán del curso una experiencia inolvidable. Conocerás a muchos estudiantes de culturas totalmente distintas y no te arrepentirás.</p>
 
-                    <p>Además, <b>hay cursos a lo largo de todo el año</b>. Cada estación se publica una oferta distinta con destinos distintos entre las 95 universidades en las que estamos presentes en toda Europa.</p>
+                    <p trd="courses.what.p4">Además, <b>hay cursos a lo largo de todo el año</b>. Cada estación se publica una oferta distinta con destinos distintos entre las 95 universidades en las que estamos presentes en toda Europa.</p>
                 </div>
             </div>
             <div class="col-6" style="padding-top: 120px;">
@@ -102,25 +114,25 @@
 
     <section id="viajar" class="crazy-padding">
         <div class="container">
-            <h1 class="right medium-title">Viaja...</h1>
+            <h1 class="right medium-title" trd="courses.travel">Viaja...</h1>
         </div>
     </section>
 
     <section id="aprender" class="crazy-padding">
         <div class="container">
-            <h1 class="center medium-title">...aprende...</h1>
+            <h1 class="center medium-title" trd="courses.learn">...aprende...</h1>
         </div>
     </section>
 
     <section id="gente" class="crazy-padding">
         <div class="container">
-            <h1 class="left medium-title">...conoce gente nueva...</h1>
+            <h1 class="left medium-title" trd="courses.people">...conoce gente nueva...</h1>
         </div>
     </section>
 
     <section class="white-background">
         <div class="container">
-            <h1 class="medium-title center big-padding" style="color: #666">¡y mucho más!</h1>
+            <h1 class="medium-title center big-padding" style="color: #666" trd="courses.more">¡y mucho más!</h1>
         </div>
     </section>
 
@@ -134,15 +146,17 @@
         <div class="container iinmense-padding row">
             <div class="col-2"></div>
             <div class="col-8">
-                <h1>¿Te lo vas a perder?</h1>
-                <h3>Solicita tu curso ya en <a href="https://best.eu.org/courses" style="color: white" target="_blank">www.best.eu.org/courses</a></h3>
+                <h1 trd="courses.apply.title">¿Te lo vas a perder?</h1>
+                <h3 ><span trd="courses.apply.description">Solicita tu curso ya en </span><a href="https://best.eu.org/courses" style="color: white" target="_blank">www.best.eu.org/courses</a></h3>
             </div>
         </div>
     </section>
 
     <footer>
-        <p class="center">Copyright &copy; 2017 BEST Valladolid</p>
+        <p class="center">&copy; 2018 BEST Valladolid</p>
     </footer>
 </body>
-
+<script>
+    loadLangFile();
+</script>
 </html>

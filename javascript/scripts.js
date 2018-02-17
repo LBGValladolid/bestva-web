@@ -32,3 +32,4 @@ function removeClass(el, className) {
         el.className = el.className.replace(reg, ' ')
     }
 }
+

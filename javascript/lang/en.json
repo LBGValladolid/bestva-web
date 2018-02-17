@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "bestva": {
+            "title": "BEST VALLADOLID",
+            "who": "Who we are",
+            "what": "What do we do",
+            "how": "How do we organize",
+            "members": "Members"
+        },
+        "fibest": {
+            "title": "FiBEST"
+        },
+        "ebec": {
+            "title": "EBEC"
+        },
+        "courses": {
+            "title": "BEST COURSES"
+        },
+        "ac": {
+            "title": "AUTUMN COURSE 2017",
+            "description": "Course Description",
+            "schedule": "Schedule",
+            "sponsors": "Colaborators",
+            "mains": "Main organizers"
+        },
+        "contact": {
+            "title": "CONTACT"
+        }
+    },
+    "bestva": {
+        "who": {
+            "title": "Who we are",
+            "p1": "BEST Valladolid is the local group of BEST in the University of Valladolid. It was founded in 1994.",
+            "p2": "During these 20 years, we 've been working towards a constant objective:  putting all our faith, emotion and enthusiasm in everything we do to achieve our proyects successfully.",
+            "p3": "BEST Valladolid is always looking for big challenges. We are always ready for even bigger ones.",
+            "p4": "Our local group is composed by more than 30 active members coming from different degrees. The formula? Team work!",
+            "p5": "We are all university students who devote part of our free time to BEST.",
+            "p6": "Approximately every 15 days we meet to inform and debate about the upcoming events and their progress."
+        },
+        "what": {
+            "title": "What do we do",
+            "ebec": {
+                "title": "EBEC engineering competition",
+                "description": "Engineering competition in which teams formed by students of the University of Valladolid compete for a place in the national round, EBEC Spain. In this last one, they will contend against other 5 teams from other different Spanish universities, challenging their ingenuity and skills to win a ticket for the European final, which last year took place in Czech Republic."
+            },
+            "fibest": {
+                "title": "FiBEST jobfair",
+                "description": "With 18 editions, FiBEST is both the only jobfair in Valladolid, and the biggest in all the state of Castilla y León. In the last 4 editions, 80 companies have passed through our installations, giving us the strength and motivation to pursue making it bigger year after year. But FiBEST is not a simple jobfair, because it is done for and by students, fullfilling the aim of BEST of acting as a link between companies, students and universities. FiBEST takes place every march in the University of Valladolid."
+            },
+            "ac": {
+                "title": "Autumn course.",
+                "description": "It takes place during the month of September, when students from all across Europe go for participating on a course that will complement their universitary studies while learning about Spanish culture and, in particularly, about the city of Valladolid."
+            },
+            "more": "Nevertheless, this is not all what we do during the year. We also organise a Cultural Exchange every August in which around ten people of two different local BEST groups come to Valladolid to get to know our gastronomy and customs. We even organise other sort of greater events like the BEST General Assembly, which took place in April on 2013."
+        },
+        "how": {
+            "title": "How we organise ourselves",
+            "board": {
+                "title": "Each local BEST group has a board of directors. In BEST Valladolid, it's made out of five members:",
+                "president": "President.",
+                "secretary": "Secretary.",
+                "treasurer": "Treasurer.",
+                "vpe": "Vice-President for Events.",
+                "vphr": "Vice-President for Human Resources."
+            },
+            "wg": {
+                "title": "We are divided in 5 working groups in which all the members can help their colleagues in the way they like the most:",
+                "design": "<b>Design: </b>this group is in charge of making and designing all the promoting materials for our events. This includes posters, nametags, dossiers, t-shirts... ",
+                "media": "<b>Media: </b>this working group is the one that has to get in touch with the media (newspapers, radio, TV...) in order to spread the activities we do.",
+                "it": "<b>IT (Information Technology): </b>it's responsible for maintenance and development of every informatic system in the organization. As an example, this web page has been done by this group.",
+                "fr": "<b>FR (Fund Raising): </b>Its task is to finance the association events, which wouldn't be possible without the aid and collaborations of several companies, other associations and the University of Valladolid.",
+                "ep": "<b>EP (External Promotion): </b>responsible for promotion strategies and to inform about all the activities that we carry out to every student in our University. Also, it promotes BEST Valladolid among other Universities.",
+                "also": "We also have the position of:",
+                "cm": "<b>Community Manager: </b>responsible for communication through social media."
+            }
+        },
+        "members": "Members"
+    },
+    "contact": {
+        "title": "Contact us",
+        "subtitle": "Are you interested? Do you have any questions? Don't hesitate to contact us!",
+        "find_us": "Find us on..."
+    },
+    "courses": {
+        "title": "BEST Courses",
+        "subtitle": "Travel, learn, enjoy.",
+        "what": {
+            "title": "What are they",
+            "p1": "BEST courses are events that last between 7 and 15 days where students from different European countries join together to learn about technological topics or soft skills useful in the daily future life.",
+            "p2": "The lessons are not only lectures! Lessons include <b>workshops, companies visits, colloquia</b>, and many other active learning activities that make the course nice and fun.",
+            "p3": "Apart from the learning activities, the social, turist and cultural activities will make an unforgettable experience. You will meet many other students from different countries who will enjoy with you. You won't regret!",
+            "p4": "Also, <b>there are other BEST courses during the rest of the year</b>. Different courses with different course topics, in different cities of the 95 universities where BEST is present, are published each season."
+        },
+        "travel": "Travel...",
+        "learn": "...learn...",
+        "people": "...meet new people...",
+        "more": "and much more!",
+        "apply": {
+            "title": "Are you going to miss it?",
+            "description": "Apply for a course in "
+        }
+    },
+    "ebec": {
+        "title": "EBEC",
+        "subtitle": "European BEST Engineering Competition",
+        "rounds": {
+            "title": "Three rounds",
+            "description": "European BEST Engineering Competition is part of the <em>EBEC piramid</em>. Such piramyd is composed of 83 local rounds, 15 national or regional ones and one last final round. From each, only the best will go on to the next rounds."
+        },
+        "two_categories": "Two categories",
+        "cs": {
+            "title": "Case Study",
+            "p1": "In this category the competitors will face practical problems that due to their size and realism is not possible to develop a functional prototype. This bring the companies the opportunity of evaluating, getting to know and take advantage of the talented participants. The company presents a technical or business problem and the students must propose the best solution.",
+            "p2": "Participants will analize the situation, discuss in a team the different solutions and write a report with the idea that fits better in terms of viability, profitability, efficiency and effectiveness. Then, members of the university community and representatives of the companies will evaluate the quality of the solutions and choose a winner team."
+        },
+        "td": {
+            "title": "Team Design",
+            "p1": "Team Design is one of the best known,visual and expectacular event organized in every BEST competition.",
+            "p2": "Here, a practical engineering problem is presented to the students so they design and build a mechanism well suited for the problem.",
+            "p3": "Participants must elaborate with the lowest possible cost a fully-operative prototype that solves the problem in the most efficient and original way possible. At the end of the competition they will expose publicly they devices, that will be evaluated by a jury formed by members of the university community and collaborating companies."
+        },
+        "info": {
+            "title": "Want to know more?",
+            "description": "Find more info on "
+        }
+    },
+    "fibest": {
+        "title": "FiBEST",
+        "subtitle": "Your jobfair in Castilla y León. We wait you on March 14th.",
+        "what": {
+            "title": "What is FiBEST?",
+            "what": "FIBEST, marked as <b>the biggest job fair in Castilla y León</b>, has an unique characteristic: it is organized by the most qualified people about students thoughts, the students",
+            "goal": "Our goal is to smooth the first step in the work world by creating a <b>meeting point between students, companies and institutions</b>. Also, some activities are made to prepare the students to the work world.",
+            "by": "FiBEST has been created, implemented and developed by students from BEST (Board of European Students of Technology) asociation from Valladolid. The event has the support of Valladolid University, the job public service (ECyL), the Diputacion and the City Council."
+        },
+        "more": {
+            "title": "Do you want to know more?",
+            "more": "Find more information on "
+        }
+    }
+}

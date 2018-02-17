@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "bestva": {
+            "title": "BEST VALLADOLID",
+            "who": "Quiénes somos",
+            "what": "Qué hacemos",
+            "how": "Cómo nos organizamos",
+            "members": "Miembros"
+        },
+        "fibest": {
+            "title": "FiBEST"
+        },
+        "ebec": {
+            "title": "EBEC"
+        },
+        "courses": {
+            "title": "CURSOS BEST"
+        },
+        "ac": {
+            "title": "CURSO DE OTOÑO '17",
+            "description": "Descripción del curso",
+            "schedule": "Horario",
+            "sponsors": "Empresas colaboradoras",
+            "mains": "Organizadores principales"
+        },
+        "contact": {
+            "title": "CONTACTA"
+        }
+    },
+    "bestva": {
+        "who": {
+            "title": "Quiénes somos",
+            "p1": "BEST Valladolid es el grupo local de BEST de la Universidad de Valladolid y fue fundado en el año 1994.",
+            "p2": "Durante estos 20 años de existencia, hemos trabajado con un objetivo constante: poner toda nuestra fe, emoción y entusiasmo en todo lo que hacemos para lograr que nuestros proyectos sean un éxito.",
+            "p3": "BEST Valladolid es un grupo que siempre ha buscado grandes metas y desafíos y estamos siempre preparados para otros aún más grandes.",
+            "p4": "Nuestro grupo local está formado por cerca de 30 miembros activos de diferentes carreras universitarias basado en el trabajo en equipo.",
+            "p5": "Todos nosotros somos estudiantes universitarios, y dedicamos parte de nuestro tiempo libre a BEST.",
+            "p6": "Aproximadamente cada 15 días nos reunimos para hablar de nuestros próximos eventos donde contamos los avances que han tenido lugar en los últimos días, aunque la mayoría de nuestro trabajo lo realizamos vía online o a través del correo electrónico."
+        },
+        "what": {
+            "title": "Qué hacemos",
+            "ebec": {
+                "title": "Competición de ingeniería EBEC,",
+                "description": "En la que equipos de estudiantes de la Universidad de Valladolid compiten por una plaza en la ronda nacional, EBEC Spain. En ella, se medirán a otros 5 equipos de universidades españolas poniendo a prueba su ingenio y habilidades para lograr una plaza en la final Europea, que en la pasada edición se celebró en la República Checa."
+            },
+            "fibest": {
+                "title": "Foro de empleo FiBEST",
+                "description": "Único foro de empleo de la ciudad de Valladolid, el más consagrado (15 exitosas ediciones consecutivas) y el de mayor dimensión (80 empresas participantes en las últimas 4 ediciones) de toda la comunidad autónoma de Castilla y León. Se trata de un foro de empleo creado y organizado en su totalidad por y para estudiantes y se realiza en el mes de marzo."
+            },
+            "ac": {
+                "title": "Curso de otoño.",
+                "description": "Realizado durante el mes de septiembre, donde estudiantes de carreras tecnológicas procedentes de toda Europa acuden para la realización de un curso complementario a su formación de 12 días a la vez que aprenden sobre la cultura española y más particularmente sobre la ciudad de Valladolid."
+            },
+            "more": "Sin embargo, esto no es lo único que hacemos durante todo el año. También llevamos a cabo cada agosto un Intercambio Cultural en el que diez personas de cada uno de dos grupos locales de BEST de diferentes países vienen a Valladolid para tomar contacto con nuestra gastronomía y costumbres, o incluso otro tipo de eventos como la Asamblea General de BEST que se llevó a cabo en abril de 2013."
+        },
+        "how": {
+            "title": "Cómo nos organizamos",
+            "board": {
+                "title": "Cada grupo local de BEST tiene una junta directiva o <b>Board</b>. En Valladolid está formada por cinco miembros:",
+                "president": "Presidente.",
+                "secretary": "Secretario.",
+                "treasurer": "Tesorero.",
+                "vpe": "Vicepresidente de Eventos.",
+                "vphr": "Vicepresidente de Recursos Humanos."
+            },
+            "wg": {
+                "title": "Nos dividimos en 5 grupos de trabajo en los que todos los miembros pueden ayudar en lo que más les guste: ",
+                "design": "<b>Design: </b>se encarga de la elaboración de los materiales promocionales de todos nuestros eventos: posters, dossieres, acreditaciones...",
+                "media": "<b>Medios: </b>es el grupo de contacto con los medios de comunicación (periódicos, radio, televisión) con el fin de difundir nuestras actividades.",
+                "it": "<b>IT (Information Technology): </b> se encarga del mantenimiento y desarrollo de los sistemas informáticos de la asociación. Esta web, por ejemplo, ha sido realizada por este grupo.",
+                "fr": "<b>FR (Funds Raising): </b>lleva a cabo la financiación de la organización de eventos a través de colaboraciones con empresas, fundaciones y la universidad.",
+                "ep": "<b>EP (External Promotion): </b>se dedica al diseño de estrategias de promoción y difusión de las actividades que ofrecemos así como los cursos que organizan el resto grupos locales de toda Europa, así como dar a conocer nuestra asociación en la Universidad de Valladolid.",
+                "also": "Y también contamos con la figura de:",
+                "cm": "<b>Community Manager: </b>responsable de la comunicación a través de redes sociales."
+            }
+        },
+        "members": "Miembros"
+    },
+    "contact": {
+        "title": "Contacta con nosotros",
+        "subtitle": "¿Estás interesado o tienes alguna pregunta? ¡No dudes en contactarnos!",
+        "find_us": "Encuéntranos"
+    },
+    "courses": {
+        "title": "Cursos BEST",
+        "subtitle": "Viaja, aprende, disfruta.",
+        "what": {
+            "title": "¿Qué son?",
+            "p1": "Los cursos de BEST son eventos de entre 7 y 15 días de duración en los que se reúnen estudiantes de diversos países de Europa para tratar temas de carácter tecnológico o de materias complementarias a su formación.",
+            "p2": "El temario no se imparte sólo mediante clases sino que también se realizan <b>diversos talleres, visitas a empresas, coloquios</b> y demás formatos para que el aprendizaje sea más ameno y diverso.",
+            "p3": "Aparte de las actividades de aprendizaje, también se llevarán a cabo <b>actividades sociales, visitas culturales y turísticas</b> que harán del curso una experiencia inolvidable. Conocerás a muchos estudiantes de culturas totalmente distintas y no te arrepentirás.",
+            "p4": "Además, <b>hay cursos a lo largo de todo el año</b>. Cada estación se publica una oferta distinta con destinos distintos entre las 95 universidades en las que estamos presentes en toda Europa."
+        },
+        "travel": "Viaja...",
+        "learn": "...aprende...",
+        "people": "...conoce gente nueva...",
+        "more": "¡y mucho más!",
+        "apply": {
+            "title": "¿Te lo vas a perder?",
+            "description": "Solicita tu curso ya en "
+        }
+    },
+    "ebec": {
+        "title": "EBEC",
+        "subtitle": "European BEST Engineering Competition",
+        "rounds": {
+            "title": "Tres rondas",
+            "description": "La European BEST Engeneering Competition está englobada en la pirámide de la EBEC. Dicha pirámide está compuesta por 83 rondas locales, 15 rondas nacionales o regionales y una última fase final. De cada una de ellas saldrán los estudiantes participantes que logren superar las pruebas propuestas en cada categoría."
+        },
+        "two_categories": "Dos categorías",
+        "cs": {
+            "title": "Case Study",
+            "p1": "La categoría “Case Study”, surge del planteamiento de problemas prácticos que debido a su embergadura y realismo no es posible realizar una maqueta funcional de los mismos, estos brindan a las empresas la oportunidad de conocer y aprovechar el alto nivel de los participantes y evaluarles en persona. La empresa plantea un problema técnico o empresarial, y los estudiantes deben proponer la mejor solución.",
+            "p2": "Los participantes tendrán que analizar la situación planteada, debatir en equipo las posibles soluciones, y escribir un informe con la idea que les parezca mejor en términos de viabilidad, rentabilidad, eficiencia y eficacia. Serán los miembros de la comunidad universitaria y los miembros de las empresas los que valoren la calidad de las soluciones propuestas, y escojan al ganador."
+        },
+        "td": {
+            "title": "Team Design",
+            "p1": "El “Team Design”, es uno de los más reconocidos, visibles y espectaculares eventos organizados en todas las competiciones de BEST. ",
+            "p2": "En él, se plantea un ejercicio práctico de ingeniería, para que los estudiantes diseñen, proyecten y elaboren con sus propias manos el mecanismo más apropiado.",
+            "p3": "Los participantes deben elaborar con el menor gasto posible una maqueta perfectamente funcional, que solucione del modo más eficiente y original el problema propuesto. Al final de la competición, expondrán públicamente sus diseños, que serán valorados por el jurado compuesto por miembros de la comunidad universitaria y empresas colaboradoras."
+        },
+        "info": {
+            "title": "¿Quieres saber más?",
+            "description": "Encuentra más información en "
+        }
+    },
+    "fibest": {
+        "title": "FiBEST",
+        "subtitle": "Tu foro de empleo en Castilla y León. Te esperamos el 14 de marzo.",
+        "what": {
+            "title": "Qué es FiBEST",
+            "what": "FiBEST, catalogado como el <b>Foro de Empleo más grande de Castilla y León</b>, tiene una característica que lo hace único: es organizado por quienes mejor conocen la situación de los estudiantes y recién titulados, los propios estudiantes.",
+            "goal": "Nuestro principal objetivo es facilitar el primer paso al mundo laboral creando un <b>punto de encuentro entre universitarios, empresas e instituciones</b>. Además, siguiendo este objetivo, se realizan una serie de actividades alrededor de la fecha del foro encaminadas a que los estudiantes se preparen para su futura vida laboral.",
+            "by": "FiBEST ha sido creado, implementado y desarrollado por alumnos pertenecientes a la asociación BEST (Board of European Students of Technology) de Valladolid. El evento cuenta con el apoyo de las siguientes instituciones públicas: la Universidad de Valladolid, la Junta de Castilla y León a través del servicio público de empleo, ECyL, la Diputación y el Ayuntamiento de Valladolid."
+        },
+        "more": {
+            "title": "¿Quieres saber más?",
+            "more": "Encuentra más información en "
+        }
+    }
+}
