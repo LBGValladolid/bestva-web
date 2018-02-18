@@ -643,10 +643,6 @@ ul {
     width: 100%;
 }
 
-
-.contact-icon {
-}
-
 .contact-icon:hover {
     background-color: #eee;
     border-radius: 20px;
@@ -691,4 +687,36 @@ ul {
 }
 .nav-lang > a:last-child {
     padding-right: 13px !important;
+}
+
+
+#galeria-miembros {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6);
+}
+
+@media (max-width: 1000px) {
+    #galeria-miembros {
+        grid-template-columns: calc(100% / 4) calc(100% / 4) calc(100% / 4) calc(100% / 4);
+    }
+}
+
+@media (max-width: 600px) {
+    #galeria-miembros {
+        grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    }
+}
+
+#galeria-miembros > div {
+    padding: 1rem;
+}
+
+#galeria-miembros > div > img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+#galeria-miembros > div > p {
+    text-align: center;
 }
