@@ -66,10 +66,10 @@
             "wg": {
                 "title": "We are divided in 5 working groups in which all the members can help their colleagues in the way they like the most:",
                 "design": "<b>Design: </b>this group is in charge of making and designing all the promoting materials for our events. This includes posters, nametags, dossiers, t-shirts... ",
-                "medios": "<b>PR: </b>this working group is the one that has to get in touch with the media (newspapers, radio, TV, social media...) in order to spread the activities we do.",
+                "media": "<b>PR: </b>this working group is the one that has to get in touch with the media (newspapers, radio, TV, social media...) in order to spread the activities we do.",
                 "it": "<b>IT (Information Technology): </b>it's responsible for maintenance and development of every informatic system in the organization. As an example, this web page has been done by this group.",
                 "fr": "<b>FR (Fund Raising): </b>Its task is to finance the association events, which wouldn't be possible without the aid and collaborations of several companies, other associations and the University of Valladolid.",
-                "ep": "<b>EP (External Promotion): </b>responsible for promotion strategies and to inform about all the activities that we carry out to every student in our University. Also, it promotes BEST Valladolid among other Universities.",
+                "ep": "<b>EP (External Promotion): </b>responsible for promotion strategies and to inform about all the activities that we carry out to every student in our University. Also, it promotes BEST Valladolid among other Universities."
             }
         },
         "members": "Members"
