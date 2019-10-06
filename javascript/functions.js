@@ -15,15 +15,14 @@ function selectLang(lang = undefined) {
     if (supportedLangs.indexOf(lang) != -1) {
         setCookie("lang", lang);
         return lang;
-    } 
+    }
     if (getCookie("lang")) {
         return getCookie("lang");
-    }
-    else if (supportedLangs.indexOf(navigator.language) != -1) {
-        setCookie("lang", navigator.language);        
+    } else if (supportedLangs.indexOf(navigator.language) != -1) {
+        setCookie("lang", navigator.language);
         return navigator.language;
     }
-    setCookie("lang", defaultLang);    
+    setCookie("lang", defaultLang);
     return defaultLang;
 }
 
@@ -43,9 +42,9 @@ function setLang(lang) {
 
 /**
  * Combining both methods abobe, it loads the JSON file from the server.
- * 
- * @param {function} [setPlaceHolders=undefined] 
- * @param {String} [lang=undefined] 
+ *
+ * @param {function} [setPlaceHolders=undefined]
+ * @param {String} [lang=undefined]
  */
 function loadLangFile(lang = undefined, setPlaceHolders = undefined) {
     const url = langPath + selectLang(lang) + '.json';
@@ -63,7 +62,7 @@ function loadLangFile(lang = undefined, setPlaceHolders = undefined) {
     request.open("GET", url, true);
     request.send();
 
-    
+
     selectMenuLang(selectLang(lang));
 
     function selectMenuLang(lang) {
@@ -75,8 +74,8 @@ function loadLangFile(lang = undefined, setPlaceHolders = undefined) {
     }
 }
 
-function setCookie(key, value, secs, path="") {
-    document.cookie = 
+function setCookie(key, value, secs, path = "") {
+    document.cookie =
         key + "=" + value + ";" +
         "max-age=" + secs + ";" +
         "path=" + path;
@@ -86,7 +85,7 @@ function getCookie(key) {
     const name = key + "=";
     var decodedCookie = decodeURIComponent(document.cookie);
     var cookieArray = decodedCookie.split(';');
-    for(let cookie of cookieArray) {
+    for (let cookie of cookieArray) {
         while (cookie.charAt(0) == ' ') {
             cookie = cookie.substring(1);
         }
@@ -112,13 +111,20 @@ function menu() {
 }
 
 /* script que muestra el form en contactos */
-function showForm(){
-    var x = document.getElementById("form");
-    if(x.className == "form-hidden") {
-        x.className = "form-shown";
-    }else{
-        x.className = "form-hidden";
+function showForm() {
+    var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile")
 
+    if (isAndroid) {
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfb6lZeVAgueQbLpuWX8HmSxsVaYcAt42QboeurecmcsAkVNg/viewform?embedded=true";
+    } else {
+        var x = document.getElementById("form");
+        if (x.className == "form-hidden") {
+            x.className = "form-shown";
+        } else {
+            x.className = "form-hidden";
+
+        }
     }
 
 }
