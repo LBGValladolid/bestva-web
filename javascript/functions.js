@@ -116,7 +116,7 @@ function showForm() {
     var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile")
 
     if (isAndroid) {
-        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfb6lZeVAgueQbLpuWX8HmSxsVaYcAt42QboeurecmcsAkVNg/viewform?embedded=true";
+        window.location.href = "https://docs.google.com/forms/d/1l_Vv-sWri1xv4NLY1aZ9-5pxR-7W8GrZuFxlSpeGB4E/viewform";
     } else {
         var x = document.getElementById("form");
         if (x.className == "form-hidden") {
