@@ -81,7 +81,11 @@
     "contact": {
         "title": "Contacta con nosotros",
         "subtitle": "¿Estás interesado o tienes alguna pregunta? ¡No dudes en contactarnos!",
-        "find_us": "Encuéntranos"
+        "find_us": "Encuéntranos",
+        "join_us": {
+            "title":"¿Te interesa? ¡Únete!",
+            "subtitle": "Rellena nuestro formulario"
+        }
     },
     "courses": {
         "title": "Cursos BEST",

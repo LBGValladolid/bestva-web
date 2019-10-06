@@ -110,3 +110,15 @@ function menu() {
         x.className = "visible";
     }
 }
+
+/* script que muestra el form en contactos */
+function showForm(){
+    var x = document.getElementById("form");
+    if(x.className == "form-hidden") {
+        x.className = "form-shown";
+    }else{
+        x.className = "form-hidden";
+
+    }
+
+}

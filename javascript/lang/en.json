@@ -81,7 +81,11 @@
     "contact": {
         "title": "Contact us",
         "subtitle": "Are you interested? Do you have any questions? Don't hesitate to contact us!",
-        "find_us": "Find us on..."
+        "find_us": "Find us on...",
+        "join_us": {
+            "title":"Feeling interested? Join us!",
+            "subtitle": "Fill our form"
+        }
     },
     "courses": {
         "title": "BEST Courses",

@@ -730,3 +730,34 @@ ul {
    -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+/*Cosas del form*/
+.form-hidden {
+    opacity: 0;
+    height: 0;
+    width: 640px;
+    transition: 0.3s;
+
+}
+
+.form-shown {
+    opacity: 1;
+    height: 2093px;
+    width: 640px;
+    transition: 0.3s;
+}
+
+.form-btn {
+    background-color: #8169FC;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 22px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.form-btn:hover {opacity: 0.7}
