@@ -66,7 +66,7 @@ header {
 }
 
 /* max-width --> parte movil */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
 
     .cont-nav {
         margin-right: auto;
@@ -162,7 +162,7 @@ header {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     /* Parte ancha */
     .cont-nav {
         margin-right: auto;
