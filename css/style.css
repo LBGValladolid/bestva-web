@@ -115,6 +115,7 @@ header {
         margin: 0;
         padding: 0;
         border-bottom: 1px solid #ddd;
+        overflow: hidden;
     }
 
     #menu .actual {
@@ -153,7 +154,12 @@ header {
     .invisible {
         display: none;
     }
+    #menu .nuevos {
+        background: #75bf1e;
+        color: white;
+        font-weight: bold;
 
+    }
 }
 
 @media (min-width: 1200px) {
@@ -199,6 +205,7 @@ header {
         float: left;
         margin: 0;
         padding: 0;
+        overflow: hidden;
     }
 
     #menu ul ul {
@@ -258,6 +265,15 @@ header {
 
     #header-gap {
         height: 60px;
+    }
+    #menu .nuevos {
+        background: #75bf1e;
+        border-radius: 5px;
+        margin-top: 14px;
+        height: 50%;
+        color: white;
+        font-weight: bold;
+
     }
 }
 
@@ -768,12 +784,3 @@ ul {
     opacity: 0.7
 }
 
-#menu .nuevos {
-    background: #75bf1e;
-    border-radius: 5px;
-    margin-top: 18%;
-    height: 50%;
-    color: white;
-    font-weight: bold;
-
-}
