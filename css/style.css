@@ -10,7 +10,7 @@ html, body {
     margin: 0;
 }
 
-@media(min-width: 720px) {
+@media (min-width: 720px) {
     html, body, p {
         font-size: 18px;
     }
@@ -64,9 +64,10 @@ footer p {
 header {
     z-index: 9999;
 }
+
 /* max-width --> parte movil */
-@media(max-width: 1200px) {
-    
+@media (max-width: 1200px) {
+
     .cont-nav {
         margin-right: auto;
         margin-left: auto;
@@ -88,9 +89,9 @@ header {
         padding: 0;
         width: 100%;
         background-color: #fff;
-            -webkit-box-shadow: 0px 0px 10px 0px rgba(85,85,85,1);
-            -moz-box-shadow: 0px 0px 10px 0px rgba(85,85,85,1);
-            box-shadow: 0px 0px 10px 0px rgba(85,85,85,1);
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(85, 85, 85, 1);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(85, 85, 85, 1);
+        box-shadow: 0px 0px 10px 0px rgba(85, 85, 85, 1);
     }
 
     #menu ul a {
@@ -115,10 +116,11 @@ header {
         padding: 0;
         border-bottom: 1px solid #ddd;
     }
+
     #menu .actual {
         font-weight: 600;
     }
-    
+
     #menu ul ul {
         display: none;
     }
@@ -128,7 +130,7 @@ header {
         float: left;
         padding: 10px 0 10px 0;
     }
-    
+
     #menu-icon {
         height: 30px;
         float: right;
@@ -142,8 +144,8 @@ header {
     #header-gap {
         height: 60px;
     }
-    /* Visible, invisible */
 
+    /* Visible, invisible */
     .visible {
         display: block;
     }
@@ -151,17 +153,17 @@ header {
     .invisible {
         display: none;
     }
-    
+
 }
 
-@media (min-width: 1200px) { /* Parte ancha */
-    
+@media (min-width: 1200px) {
+    /* Parte ancha */
     .cont-nav {
         margin-right: auto;
         margin-left: auto;
         padding: 0px 30px;
     }
-    
+
     header {
         width: 100%;
         border-bottom: 1px solid #ddd;
@@ -169,7 +171,7 @@ header {
         background: white;
         position: fixed;
     }
-    
+
     #menu ul {
         list-style: none;
         position: relative;
@@ -177,7 +179,7 @@ header {
         margin: 0;
         padding: 0;
     }
-    
+
     #menu ul a {
         text-decoration: none;
         /* no underline */
@@ -191,14 +193,14 @@ header {
         height: 60px;
         align-items: center;
     }
-    
+
     #menu ul li {
         position: relative;
         float: left;
         margin: 0;
         padding: 0;
     }
-    
+
     #menu ul ul {
         display: none;
         transition: display 0.12s ease;
@@ -210,22 +212,22 @@ header {
         border-right: 1px solid #ddd;
         border-bottom: 1px solid #ddd;
     }
-    
+
     #menu ul li > a:hover {
         font-weight: 600;
         transition: font-weight 0.12s ease;
     }
-    
+
     #menu ul li:hover > ul {
         display: block;
         transition: display 0.12s ease;
     }
-    
+
     #menu ul ul li {
         float: none;
         width: 220px;
     }
-    
+
     #menu ul ul a {
         line-height: 120%;
         padding: 10px 15px;
@@ -233,27 +235,27 @@ header {
         background-color: #fff;
         height: auto;
     }
-    
+
     #menu ul ul ul {
         top: 0;
         left: 100%;
     }
-    
+
     #menu .actual {
         font-weight: 600;
     }
-    
+
     #logo {
         height: 40px;
         float: left;
         padding: 10px 0 10px 0;
-        
+
     }
-    
+
     #menu-icon {
         display: none;
     }
-    
+
     #header-gap {
         height: 60px;
     }
@@ -369,7 +371,7 @@ ul {
 }
 
 @media (min-width: 720px) {
-    
+
     #slider {
         overflow: hidden;
     }
@@ -390,7 +392,7 @@ ul {
         text-shadow: 0 0 40px #000;
     }
 
-    
+
     #travelling-slide {
         background-image: url(../media/banner/wide/train.jpg);
         background-attachment: fixed;
@@ -479,7 +481,7 @@ ul {
         background-size: cover;
         background-position: center;
     }
-    
+
     #fibest-buscando,
     #portatil,
     #impresoras,
@@ -617,21 +619,22 @@ ul {
     font-size: 30px;
 }
 
-@media (min-width: 720px) { /* Parte ancha */
-	.big-title {
-	    font-size: 130px
-	}
+@media (min-width: 720px) {
+    /* Parte ancha */
+    .big-title {
+        font-size: 130px
+    }
 
-	.medium-title {
-	    font-size: 60px;
-	}
+    .medium-title {
+        font-size: 60px;
+    }
 }
 
-@media(max-width: 720px) {
+@media (max-width: 720px) {
     .big-title {
         font-size: 80px
     }
-    
+
     .medium-ti5tle {
         font-size: 60px;
     }
@@ -663,7 +666,7 @@ ul {
     padding-left: 0;
     display: flex;
     align-content: center;
-    padding:0;
+    padding: 0;
     justify-content: center;
 }
 
@@ -676,15 +679,16 @@ ul {
     color: cadetblue !important;
     padding: 0 5px !important;
     background-color: rgb(240, 240, 240);
-    margin:auto;
+    margin: auto;
     display: flex;
-    
+
     justify-content: space-around;
 }
 
 .nav-lang > a:first-child {
     padding-left: 13px !important;
 }
+
 .nav-lang > a:last-child {
     padding-right: 13px !important;
 }
@@ -724,12 +728,12 @@ ul {
 .borde {
     color: #fff;
 
-    text-shadow:
-   -1px -1px 0 #000,  
+    text-shadow: -1px -1px 0 #000,
     1px -1px 0 #000,
-   -1px 1px 0 #000,
+    -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
 /*Cosas del form*/
 .form-hidden {
     opacity: 0;
@@ -760,9 +764,16 @@ ul {
     margin-bottom: 20px;
 }
 
-.form-btn:hover {opacity: 0.7}
+.form-btn:hover {
+    opacity: 0.7
+}
 
-.nuevos{
-    background: #90b6ff;
+#menu .nuevos {
+    background: #75bf1e;
     border-radius: 5px;
+    margin-top: 18%;
+    height: 50%;
+    color: white;
+    font-weight: bold;
+
 }
