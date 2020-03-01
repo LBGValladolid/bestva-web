@@ -761,3 +761,8 @@ ul {
 }
 
 .form-btn:hover {opacity: 0.7}
+
+.nuevos{
+    background: #90b6ff;
+    border-radius: 5px;
+}
