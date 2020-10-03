@@ -160,6 +160,12 @@ header {
         font-weight: bold;
 
     }
+    #menu .highlight {
+        background: #fda515;
+        color: white;
+        font-weight: bold;
+
+    }
 }
 
 @media (min-width: 1400px) {
@@ -209,7 +215,7 @@ header {
     }
 
     #menu ul ul {
-        display: none;
+        /*display: none;*/
         transition: display 0.12s ease;
         position: absolute;
         top: 100%;
@@ -270,6 +276,16 @@ header {
         background: #75bf1e;
         border-radius: 5px;
         margin-top: 14px;
+        height: 50%;
+        color: white;
+        font-weight: bold;
+
+    }
+    #menu .highlight {
+        background: #fda515;
+        border-radius: 5px;
+        margin-top: 14px;
+        margin-left: 2px;
         height: 50%;
         color: white;
         font-weight: bold;
@@ -501,6 +517,7 @@ ul {
     #fibest-buscando,
     #portatil,
     #impresoras,
+    #aprender,
     #piramide {
         background-attachment: fixed;
     }
@@ -570,10 +587,10 @@ ul {
 
 #aprender {
     background-image: url(../media/div-background/learn.jpg);
-    background-color: #aaaaaa;
+    background-color: #aaa;
     background-blend-mode: multiply;
     color: #fff;
-    text-shadow: 0px 0px 20px rgba(55, 55, 55, 0.55);
+    text-shadow: 0px 0px 20px rgba(55, 55, 55, 0.75);
 }
 
 #gente {
@@ -784,3 +801,26 @@ ul {
     opacity: 0.7
 }
 
+.no_link {
+    text-decoration: none;
+}
+
+.img_center_and_margin {
+    margin: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* Tabla del horarios de best training month */
+.tg  {border-collapse:collapse;border-color:#aabcfe;border-spacing:0;}
+.tg td{background-color:#e8edff;border-bottom-width:1px;border-color:#aabcfe;border-style:solid;border-top-width:1px;
+    border-width:0px;color: #54547f; overflow:hidden;padding:10px 5px;
+    word-break:normal;}
+.tg th{background-color:#b9c9fe;border-bottom-width:1px;border-color:#aabcfe;border-style:solid;border-top-width:1px;
+    border-width:0px;color: #00236d;font-weight:normal;overflow:hidden;
+    padding:10px 5px;word-break:normal;}
+.tg .tg-hmp3{background-color:#D2E4FC;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}

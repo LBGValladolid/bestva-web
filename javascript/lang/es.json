@@ -11,8 +11,8 @@
         "fibest": {
             "title": "FiBEST"
         },
-        "pm19": {
-            "title": "PM19"
+        "event": {
+            "btm": "BEST TRAINING MONTH"
         },
         "ebec": {
             "title": "EBEC"
@@ -105,6 +105,13 @@
             "title": "¿Te lo vas a perder?",
             "description": "Solicita tu curso ya en "
         }
+    },
+    "btm": {
+        "title": "BTM",
+        "subtitle": "BEST Training Month",
+        "inscription": "Inscríbete a los talleres",
+        "round_table": "Únete a nuestra mesa redonda",
+        "schedule": "Horario"
     },
     "ebec": {
         "title": "EBEC",

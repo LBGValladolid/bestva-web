@@ -2,86 +2,107 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/simple-grid.css">
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
-    <title>EBEC</title>
-    <link rel="icon" type="image/png" href="media/favicon.png" sizes="16x16"> </head>
-    <link rel="icon" type="image/png" href="media/favicon.png" sizes="16x16"> <script src="javascript/functions.js"></script>
+    <title>BEST Valladolid</title>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="icon" type="image/png" href="media/favicon.png" sizes="16x16">
+    <script src="javascript/functions.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68544803-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-68544803-1');
+    </script>
+
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <img id="logo" src="media/BESTlogo.png">
-            <a href="javascript:void(0);" onclick="menu()">
-                <img id="menu-icon" src="icon/menu.png">
-            </a>
+<header>
+    <div class="container">
+        <img id="logo" src="media/BESTlogo.png">
+        <a href="javascript:void(0);" onclick="menu()">
+            <img id="menu-icon" src="icon/menu.png">
+        </a>
 
-            <nav id="menu" class="invisible">
-                <ul>
-                    <li>
-                        <a class="actual" href="index.html" trd="nav.bestva.title">BEST VALLADOLID</a>
-                        <ul>
-                            <li>
-                                <a href="index.html#quienes-somos" trd="nav.bestva.who">Quiénes somos</a>
-                            </li>
-                            <li>
-                                <a href="index.html#que-hacemos" trd="nav.bestva.what">Qué hacemos</a>
-                            </li>
-                            <li>
-                                <a href="index.html#como-nos-organizamos" trd="nav.bestva.how">Cómo nos organizamos</a>
-                            </li>
-                            <li>
-                                <a href="index.html#miembros" trd="nav.bestva.members">Miembros</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="" href="fibest.html" trd="nav.fibest.title">FiBEST</a>
-                    </li>
-                    <li>
-                        <a class="" href="ebec.html" trd="nav.ebec.title">EBEC</a>
-                    </li>
-                    <li>
-                        <a class="" href="cursos.html" trd="nav.courses.title">CURSOS BEST</a>
-                    </li>
-                    <li>
-                        <a class="" href="ac19.html" trd="nav.ac.title">AUTUMN COURSE 2019</a>
-                        <!-- Cambiar -->
-                        <ul>
-                            <li>
-                                <a href="ac19.html#descripcion" trd="nav.ac.description">Course Description</a>
-                            </li>
-                            <li>
-                                <a href="ac19.html#schedule" trd="nav.ac.schedule">Schedule</a>
-                            </li>
-                            <li>
-                                <a href="ac19.html#patrocinadores" trd="nav.ac.sponsors">Empresas Colaboradoras</a>
-                            </li>
-                            <li>
-                                <a href="ac19.html#mains" trd="nav.ac.mains">Main Organizers</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="" href="contacta.html" trd="nav.contact.title">CONTACTA</a>
-                    </li>
-                    <li class="nav-lang">
-                        <a href="#" onclick="loadLangFile('en')" id="en">EN</a>
-                        <a href="#" onclick="loadLangFile('es')" id="es">ES</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- fin menu -->
-        </div>
-    </header>
-    <div id="header-gap"></div>
+        <nav id="menu" class="invisible">
+            <ul>
+                <li>
+                    <a class="nuevos"
+                       href="https://docs.google.com/forms/d/e/1FAIpQLSfb6lZeVAgueQbLpuWX8HmSxsVaYcAt42QboeurecmcsAkVNg/viewform?usp=sf_link"
+                       trd="nav.bestva.participate">PARTICIPA EN BEST</a>
+                </li>
+                <li>
+                    <a class="actual" href="index.html" trd="nav.bestva.title">BEST VALLADOLID</a>
+                    <ul>
+                        <li>
+                            <a href="index.html#quienes-somos" trd="nav.bestva.who">Quiénes somos</a>
+                        </li>
+                        <li>
+                            <a href="index.html#que-hacemos" trd="nav.bestva.what">Qué hacemos</a>
+                        </li>
+                        <li>
+                            <a href="index.html#como-nos-organizamos" trd="nav.bestva.how">Cómo nos organizamos</a>
+                        </li>
+                        <li>
+                            <a href="index.html#miembros" trd="nav.bestva.members">Miembros</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="" href="fibest.html" trd="nav.fibest.title">FiBEST</a>
+                </li>
+                <li>
+                    <a class="" href="ebec.html" trd="nav.ebec.title">EBEC</a>
+
+                </li>
+                <!-- La pestaña de la EBEC
+                <li>
+                    <a class="" href="ebec.html" trd="nav.ebec.title">EBEC</a>
+                </li>
+                -->
+
+                <li>
+                    <a class="" href="cursos.html" trd="nav.courses.title">CURSOS BEST</a>
+                </li>
+                <li>
+                    <a class="" href="ac19.html" trd="nav.ac.title">AUTUMN COURSE 2019</a>
+                    <!-- Cambiar -->
+                    <ul>
+                        <li>
+                            <a href="ac19.html#descripcion" trd="nav.ac.description">Course Description</a>
+                        </li>
+                        <li>
+                            <a href="ac19.html#schedule" trd="nav.ac.schedule">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="ac19.html#patrocinadores" trd="nav.ac.sponsors">Empresas Colaboradoras</a>
+                        </li>
+                        <li>
+                            <a href="ac19.html#mains" trd="nav.ac.mains">Main Organizers</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="" href="contacta.html" trd="nav.contact.title">CONTACTA</a>
+                </li>
+                <li class="nav-lang">
+                    <a href="#" onclick="loadLangFile('en')" id="en">EN</a>
+                    <a href="#" onclick="loadLangFile('es')" id="es">ES</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- fin menu -->
+    </div>
+</header>
+<div id="header-gap"></div>
     <!-- para no tener problemas con el menú "fixed" -->
     <section id="impresoras" class="crazy-padding">
         <div class="container">
