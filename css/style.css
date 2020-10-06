@@ -154,17 +154,27 @@ header {
     .invisible {
         display: none;
     }
+
     #menu .nuevos {
         background: #75bf1e;
         color: white;
         font-weight: bold;
 
     }
+
     #menu .highlight {
         background: #fda515;
         color: white;
         font-weight: bold;
 
+    }
+
+    .img_center_and_margin {
+        margin: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
     }
 }
 
@@ -272,6 +282,7 @@ header {
     #header-gap {
         height: 60px;
     }
+
     #menu .nuevos {
         background: #75bf1e;
         border-radius: 5px;
@@ -281,6 +292,7 @@ header {
         font-weight: bold;
 
     }
+
     #menu .highlight {
         background: #fda515;
         border-radius: 5px;
@@ -290,6 +302,14 @@ header {
         color: white;
         font-weight: bold;
 
+    }
+
+    .img_center_and_margin {
+        margin: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 }
 
@@ -805,22 +825,48 @@ ul {
     text-decoration: none;
 }
 
-.img_center_and_margin {
-    margin: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.no_wrap {
+    white-space: nowrap;
 }
 
 
 /* Tabla del horarios de best training month */
-.tg  {border-collapse:collapse;border-color:#aabcfe;border-spacing:0;}
-.tg td{background-color:#e8edff;border-bottom-width:1px;border-color:#aabcfe;border-style:solid;border-top-width:1px;
-    border-width:0px;color: #54547f; overflow:hidden;padding:10px 5px;
-    word-break:normal;}
-.tg th{background-color:#b9c9fe;border-bottom-width:1px;border-color:#aabcfe;border-style:solid;border-top-width:1px;
-    border-width:0px;color: #00236d;font-weight:normal;overflow:hidden;
-    padding:10px 5px;word-break:normal;}
-.tg .tg-hmp3{background-color:#D2E4FC;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg {
+    border-collapse: collapse;
+    border-color: #aabcfe;
+    border-spacing: 0;
+}
+
+.tg td {
+    background-color: #e8edff;
+    border-color: #aabcfe;
+    border-style: solid;
+    border-width: 0px;
+    color: #54547f;
+    overflow: hidden;
+    padding: 10px;
+    word-break: normal;
+}
+
+.tg th {
+    background-color: #b9c9fe;
+    border-color: #aabcfe;
+    border-style: solid;
+    border-width: 0px;
+    color: #00236d;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px;
+    word-break: normal;
+}
+
+.tg .tg-hmp3 {
+    background-color: #D2E4FC;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tg .tg-0lax {
+    text-align: center;
+    vertical-align: middle;
+}
