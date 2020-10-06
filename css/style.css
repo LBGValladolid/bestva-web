@@ -174,7 +174,11 @@ header {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 100%;
+    }
+
+    .hide_in_phone{
+        display: none;
     }
 }
 
@@ -313,6 +317,9 @@ header {
     }
     .no_wrap {
         white-space: nowrap;
+    }
+    .hide_in_pc{
+        display: none;
     }
 }
 
@@ -836,6 +843,7 @@ ul {
     border-collapse: collapse;
     border-color: #aabcfe;
     border-spacing: 0;
+    width: 100%;
 }
 
 .tg td {
