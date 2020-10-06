@@ -311,6 +311,9 @@ header {
         margin-right: auto;
         width: 100%;
     }
+    .no_wrap {
+        white-space: nowrap;
+    }
 }
 
 /* Centrar */
@@ -825,9 +828,7 @@ ul {
     text-decoration: none;
 }
 
-.no_wrap {
-    white-space: nowrap;
-}
+
 
 
 /* Tabla del horarios de best training month */
