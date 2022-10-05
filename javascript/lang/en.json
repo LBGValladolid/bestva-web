@@ -145,10 +145,11 @@
         "faselocal": {
             "title": "ALL ABOUT THE LOCAL PHASE",
             "infotitle": "Information",
-            "infordescription1":"The competition is free.",
-            "infordescription2":"The local phase will be held on November 3 at the School of Computer Engineering and at the Technical School of Telecommunications Engineers, in the Hall and in the Hedy Lamarr room.",
-            "infordescription3":"During the competition, the participants will have a catering area where they will have food during working hours and they will be provided with a hot meal at half-time."
-            },
+            "infodescription1":"The competition is free.",
+            "infodescription2":"The local phase will be held on November 3 at the School of Computer Engineering and at the Technical School of Telecommunications Engineers, in the Hall and in the Hedy Lamarr room.",
+            "infodescription3":"During the competition, the participants will have a catering area where they will have food during working hours and they will be provided with a hot meal at half-time.",
+            "horario":"Schedule"
+        },
         
         "premios": {
             "title": "AWARDS AND INSCRIPTIONS",
@@ -165,6 +166,7 @@
             "mo2": "Alonso de Luna (alonso.de.luna@best-eu.org)"
         }
     },
+
     "fibest": {
         "title": "FiBEST",
         "subtitle": "Your jobfair in Castilla y León. We wait you on March 14th.",
