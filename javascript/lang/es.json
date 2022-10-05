@@ -145,10 +145,11 @@
         "faselocal": {
             "title": "TODO SOBRE LA FASE LOCAL",
             "infotitle": "Información",
-            "infordescription1":"La competición es gratuita.",
-            "infordescription2":"La fase local se realzará el día 3 de Noviembre en la Escuela de Ingeniería Informática y en la Escuela Técnica de Ingenieros de Telecomunicación, en el Hall y en la sala Hedy Lamarr.",
-            "infordescription3":"Durante la competicón los particpantes contarán con una zona de catering de la que dispondrán de comida durante las horas de trabajo y se les proveerá de una comida caliente a media jornada."
-            },
+            "infodescription1":"La competición es gratuita.",
+            "infodescription2":"La fase local se realzará el día 3 de Noviembre en la Escuela de Ingeniería Informática y en la Escuela Técnica de Ingenieros de Telecomunicación, en el Hall y en la sala Hedy Lamarr.",
+            "infodescription3":"Durante la competicón los particpantes contarán con una zona de catering de la que dispondrán de comida durante las horas de trabajo y se les proveerá de una comida caliente a media jornada.",
+            "horario":"Horario"    
+        },
         
         "premios": {
             "title": "PREMIOS E INSCRIPCIONES",
