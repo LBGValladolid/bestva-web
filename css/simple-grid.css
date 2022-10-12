@@ -117,6 +117,12 @@
   display: none;
 }
 
+
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
 .boton {
 border: 1px solid #2e518b; 
 padding: 10px; 
@@ -127,11 +133,7 @@ text-transform: uppercase;
 font-family: 'Helvetica', sans-serif; 
 border-radius: 50px; 
 }
-
-@media only screen and (min-width: 33.75em) {  /* 540px */
-  .container {
-    width: 80%;
-  }
+	
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
