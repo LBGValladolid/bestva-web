@@ -757,7 +757,39 @@ ul {
 }
 
 
-#galeria-miembros {
+#galeria-alumni {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6);
+}
+
+@media (max-width: 1000px) {
+    #galeria-alumni {
+        grid-template-columns: calc(100% / 4) calc(100% / 4) calc(100% / 4) calc(100% / 4);
+    }
+}
+
+@media (max-width: 600px) {
+    #galeria-alumni {
+        grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    }
+}
+
+#galeria-alumni > div {
+    padding: 1rem;
+}
+
+#galeria-alumni > div > img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+#galeria-alumni > div > p {
+    text-align: center;
+}
+
+
+#galeria-miembros{
     display: grid;
     margin-top: 1rem;
     grid-template-columns: calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6);
@@ -787,6 +819,7 @@ ul {
 #galeria-miembros > div > p {
     text-align: center;
 }
+
 
 .borde {
     color: #fff;

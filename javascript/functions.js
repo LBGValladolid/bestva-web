@@ -128,3 +128,267 @@ function showForm() {
     }
 
 }
+
+function buildGallery() {
+    const members = [
+        // AQUI SOLO ACTIVOS (BABY Y FULLS)
+        {
+            name: "Alicia",
+            src: "Alicia_Lorenzo.jpg",
+        },
+        {
+            name: "Nicolás",
+            src: "Nicolas_Garcia.png",
+        },
+        {
+            name: "Viti",
+            src: "Victor_Herrezuelo.jpg",
+        },
+        {
+            name: "Paula H",
+            src: "Paula_H.jpg",
+        },
+        {
+            name: "Paula",
+            src: "Paula_Urbaneja.jpg",
+        },
+        {
+            name: "Isabel",
+            src: "Isa_III.jpg",
+        },
+        {
+            name: "Alonso",
+            src: "Alonso_DeLuna.jpeg",
+        },
+        {
+            name: "Isa V",
+            src: "Isa_V.jpeg",
+        },
+       
+        {
+            name: "Marina",
+            src: "Marina_Calleja.jpeg",
+        },
+        {
+            name: "Marta",
+            src: "Marta_Rodriguez.jpeg",
+        },
+        {
+            name: "Moon",
+            src: "Sehee.jpg",
+        },
+        {
+            name: "Rocío",
+            src: "RocioDeLaFuente.jpg",
+        },
+        {
+            name: "Paula Lorenzo",
+            src: "PaulaLorenzo.jpg",
+        },
+        {
+            name: "Paisán",
+            src: "PabloPaisan.jpg",
+        },
+        {
+            name: "Anayeli",
+            src: "Anayeli.jpeg",
+        },
+    ]
+const alumni = [
+
+
+        // AQUI SOLO ALUMNI
+
+        {
+            name: "Adrián",
+            src: "Adrian_Arroyo.jpeg",
+        },
+        {
+            name: "Alejandro",
+            src: "Alejandro_Sanz_Mediavilla.jpg",
+        },
+        {
+            name: "Veros",
+            src: "alejandro_veros.jpg",
+        },
+        {
+            name: "Álvaro",
+            src: "alvaro_lazaro.png",
+        },
+        {
+            name: "Blanca",
+            src: "Blanca_Alonso.jpg",
+        },
+        {
+            name: "Carla",
+            src: "Carla_Ruiz.jpg",
+        },
+        {
+            name: "Dani",
+            src: "Daniel_Agüeros.jpg",
+        },
+        {
+            name: "Gonza",
+            src: "Gonzalo_Calvo.jpg",
+        },
+        {
+            name: "David",
+            src: "David_Poblacion.jpeg",
+        },
+        {
+            name: "Giraldilla",
+            src: "Eduardo_Giralda.jpg",
+        },
+        {
+            name: "Guti",
+            src: "Eduardo_Gutierrez.jpg",
+        },
+        {
+            name: "Fernando",
+            src: "Fernando_Serrano.jpg",
+        },
+        {
+            name: "Héctor",
+            src: "Héctor_Sáenz.jpg",
+        },
+        {
+            name: "Inés",
+            src: "Ines_Sanz.jpg",
+        },
+        {
+            name: "Isa",
+            src: "Isabel_Prieto.jpg",
+        },
+        {
+            name: "Iván",
+            src: "Iván_Contreras.png",
+        },
+        {
+            name: "Jota",
+            src: "jaime_santamarta.jpg",
+        },
+        {
+            name: "Javier",
+            src: "Javier_Ruiz.jpg",
+        },
+        {
+            name: "Jesús",
+            src: "Jesus_Saenz.jpeg",
+        },
+        {
+            name: "José",
+            src: "Jose_Delgado.jpg",
+        },
+        {
+            name: "José María",
+            src: "JoséMaría_Pinilla.jpg",
+        },
+        {
+            name: "Juan",
+            src: "Juan_Herruzo.jpg",
+        },
+        {
+            name: "Julia",
+            src: "Julia_Martin.jpg",
+        },
+        {
+            name: "Leandro",
+            src: "Leandro_Teixeira.jpeg",
+        },
+        {
+            name: "Lucía",
+            src: "Lucía_Baeza_Sanz.jpg",
+        },
+        {
+            name: "Lucía",
+            src: "Lucia.jpeg",
+        },
+        {
+            name: "Marcos",
+            src: "Marcos_Rubio.jpg",
+        },
+        {
+            name: "María",
+            src: "María_delaFuente.jpg",
+        },
+        {
+            name: "María",
+            src: "Maria_Gonzalez.JPG",
+        },
+        {
+            name: "Marina",
+            src: "Marina_Bujedo.jpg",
+        },
+        {
+            name: "Marina",
+            src: "Marina_Herrera.jpg",
+        },
+        {
+            name: "Patricia",
+            src: "Patricia_Carretero.jpg",
+        },
+        {
+            name: "Patricia",
+            src: "Patricia_González.jpg",
+        },
+        {
+            name: "Rebeca",
+            src: "Rebeca_Hernando.JPG",
+        },
+        {
+            name: "Rubén",
+            src: "Ruben_Blanco.jpg",
+        },
+        {
+            name: "Sara",
+            src: "Sara_Nozal.jpeg",
+        },
+        {
+            name: "Sergio",
+            src: "Sergio_González_bartolomé.jpg",
+        },
+        {
+            name: "Teresa",
+            src: "Teresa_Gómez.jpg",
+        },
+        {
+            name: "Valles",
+            src: "Valles.jpg",
+        }
+    ];
+
+    const shuffleArray = arr => (
+        arr
+            .map((a) => [Math.random(), a]).sort((a, b) => a[0] - b[0]).map((a) => a[1])
+    );
+
+    let gallery = document.getElementById("galeria-miembros");
+    const route = "media/somos/";
+    for (let member of shuffleArray(members)) {
+        let memberElement = document.createElement("div");
+        let img = document.createElement("img");
+        let p = document.createElement("p");
+        img.setAttribute("src", route + member.src);
+        p.textContent = member.name;
+        memberElement.appendChild(img);
+        memberElement.appendChild(p);
+        gallery.appendChild(memberElement);
+    };
+
+
+    let galeria_alumni = document.getElementById("galeria-alumni");
+    const path = "media/somos/alumni/";
+    for (let member of shuffleArray(alumni)) {
+        let memberElement = document.createElement("div");
+        let img = document.createElement("img");
+        let p = document.createElement("p");
+        img.setAttribute("src", path + member.src);
+        p.textContent = member.name;
+        memberElement.appendChild(img);
+        memberElement.appendChild(p);
+        galeria_alumni.appendChild(memberElement);
+    }
+
+
+
+}
