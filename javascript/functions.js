@@ -2,28 +2,28 @@
  * To translate pages in client side.
  */
 
-const defaultLang = "en";
-const supportedLangs = ["en", "es"];
-const langPath = "javascript/lang/";
-const attrName = "trd";
+const DEFAULT_LANG = "en";
+const SUPPORTED_LANGS = ["en", "es"];
+const LANG_PATH = "javascript/lang/";
+const TRANSLATION_ATTR_NAME = "trd";
 
 /**
  * To select the language based on the browser and the supported languages.
  */
 
 function selectLang(lang = undefined) {
-    if (supportedLangs.indexOf(lang) != -1) {
+    if (SUPPORTED_LANGS.indexOf(lang) !== -1) {
         setCookie("lang", lang);
         return lang;
     }
     if (getCookie("lang")) {
         return getCookie("lang");
-    } else if (supportedLangs.indexOf(navigator.language) != -1) {
+    } else if (SUPPORTED_LANGS.indexOf(navigator.language) !== -1) {
         setCookie("lang", navigator.language);
         return navigator.language;
     }
-    setCookie("lang", defaultLang);
-    return defaultLang;
+    setCookie("lang", DEFAULT_LANG);
+    return DEFAULT_LANG;
 }
 
 /**
@@ -33,11 +33,34 @@ function selectLang(lang = undefined) {
 function setLang(lang) {
     const nodeList = document.getElementsByTagName("*");
     for (let elem of nodeList) {
-        const attrValue = elem.getAttribute(attrName);
-        if (attrValue != null) {
-            eval("elem.innerHTML = lang." + attrValue.trim());
+        const attrValue = elem.getAttribute(TRANSLATION_ATTR_NAME);
+        if (attrValue !== null) {
+            let translation = getTranslation(lang, attrValue);
+            if (translation) {
+                elem.innerHTML = translation;
+            } else {
+                console.warn(`Translation for attribute ${attrValue} was not found.`);
+            }
         }
     }
+}
+
+/**
+ * Method to except non existant attributes.
+ * @param {*} lang Language json file.
+ * @param {*} attrValue Example: "nav.bestva.who".
+ * @returns 
+ */
+function getTranslation(lang, attrValue) {
+    function getTranslationRecursive(attrTree, attrValueList) {
+        if (typeof attrTree === "string") return attrTree;
+        let attrNode = attrValueList.shift();
+        if (!attrTree[attrNode]) {
+            return null;
+        }
+        return getTranslationRecursive(attrTree[attrNode], attrValueList);
+    }
+    return getTranslationRecursive(lang, attrValue.trim().split("."));
 }
 
 /**
@@ -47,11 +70,11 @@ function setLang(lang) {
  * @param {String} [lang=undefined]
  */
 function loadLangFile(lang = undefined, setPlaceHolders = undefined) {
-    const url = langPath + selectLang(lang) + '.json';
+    const url = LANG_PATH + selectLang(lang) + '.json';
 
     let request = new XMLHttpRequest();
     request.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
+        if (this.readyState === 4 && this.status === 200) {
             setLang(JSON.parse(this.responseText));
             if (setPlaceHolders) {
                 setPlaceHolders(JSON.parse(this.responseText));
@@ -86,10 +109,10 @@ function getCookie(key) {
     var decodedCookie = decodeURIComponent(document.cookie);
     var cookieArray = decodedCookie.split(';');
     for (let cookie of cookieArray) {
-        while (cookie.charAt(0) == ' ') {
+        while (cookie.charAt(0) === ' ') {
             cookie = cookie.substring(1);
         }
-        if (cookie.indexOf(name) == 0) {
+        if (cookie.indexOf(name) === 0) {
             return cookie.substring(name.length, cookie.length);
         }
     }
@@ -103,7 +126,7 @@ function removeCookie(key) {
 /* script menú */
 function menu() {
     var x = document.getElementById("menu");
-    if (x.className == "visible") {
+    if (x.className === "visible") {
         x.className = "invisible";
     } else {
         x.className = "visible";
@@ -119,7 +142,7 @@ function showForm() {
         window.location.href = "https://docs.google.com/forms/d/1l_Vv-sWri1xv4NLY1aZ9-5pxR-7W8GrZuFxlSpeGB4E/viewform";
     } else {
         var x = document.getElementById("form");
-        if (x.className == "form-hidden") {
+        if (x.className === "form-hidden") {
             x.className = "form-shown";
         } else {
             x.className = "form-hidden";
@@ -388,7 +411,4 @@ const alumni = [
         memberElement.appendChild(p);
         galeria_alumni.appendChild(memberElement);
     }
-
-
-
 }
