@@ -535,7 +535,7 @@ ul {
 }
 
 @media (min-width: 720px) {
-    #ebec,
+    #sib,
     #fibest,
     #curso,
     #fibest-buscando {
@@ -553,10 +553,10 @@ ul {
     }
 }
 
-#ebec {
-    background-image: url(../media/div-background/wide/ebec500.jpg);
-    color: #000;
-    text-shadow: 0 0 10px #fff;
+#sib {
+    background-image: url(../media/div-background/wide/sib500.png);
+    color: #fff;
+    text-shadow: 0 0 10px #000;
 }
 
 #fibest {
