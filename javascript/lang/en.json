@@ -180,5 +180,51 @@
             "title": "Do you want to know more?",
             "more": "Find more information on "
         }
+    },
+    "SiB": {
+        "title": "<b>SiB</b>",
+        "subtitle": "BEST Ingenuity Week",
+        "what": {
+            "title": "<b>What is SiB?</b>",
+            "info": "SiB, BEST Ingenuity Week, is an event that will take place <b>from October 4th to October 8th, 2024</b>, where workshops and sessions will be offered by companies, professionals, and members of the association on various topics. Throughout the week, several <b>competitions</b> will be held where participants must use both their ingenuity and skills to solve the proposed problems. These competitions include <b>SiB Creators</b>, <b>SiB Challenge</b>, and <b>SiB Hackathon.</b> Participants will then present their projects and submit them for voting."
+        },
+        "activities": {
+            "title": "<b>A Week Dedicated to Student Development</b>",
+            "info": "Throughout the week, various workshops will be held where experts from companies or qualified members of our association will talk to students about different ways to manage time, resolve workplace conflicts, lead a team, provide assertive feedback, among other activities."
+        },
+        "competitions": {
+            "title": "<b>A Week Dedicated to Student Development</b>",
+            "challenge": {
+                "title": "Challenge",
+                "info": "In this category, the main focus will be the presentation of a theoretical model and a project plan, which will be the basis for evaluating the project."
+            },
+            "creators": {
+                "title": "Creators",
+                "info": "A problem will be presented, and participants must resolve it by planning a project. Ultimately, they will need to construct a model, which will be the most highly valued aspect by the judges."
+            },
+            "hackathon": {
+                "title": "Hackathon",
+                "info": "For 24 hours, students will need to solve one of the proposed problems related to cybersecurity or data management."
+            }
+        },
+        "information": {
+            "title": "<b>Information</b>",
+            "info1": "The competition and workshops are free of charge.",
+            "info2": "The workshops will take place throughout the week starting November 4th, at both the School of Industrial Engineering and the School of Computer Science and Telecommunications Engineering. The specific rooms will be announced soon in this section.",
+            "info3": "The Creators and Challenge categories will take place on November 7th at the School of Industrial Engineering, while the Hackathon will be held between November 7th and 8th at the School of Computer Science and Telecommunications Engineering on the Delibes Campus.",
+            "info4": "During the competition, participants will have access to a catering area for meals during working hours."
+        },
+        "inscriptions": {
+            "title": "<b>Registrations and Prizes</b>",
+            "info1": "All participants will receive a gift for attending the competition day.",
+            "info2": "There will be multiple prizes from our sponsors at the end of the event, as well as an exclusive prize for the winning team members.",
+            "participate": "PARTICIPATE",
+            "comming_up": "COMING SOON"
+        },
+        "contact": {
+            "by": "<b>Main Organiser</b>",
+            "more": "<b>Want to know more?</b>",
+            "us": "Contact us"
+        }
     }
 }

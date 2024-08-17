@@ -554,8 +554,10 @@ ul {
 }
 
 #sib {
-    background-image: url(../media/div-background/wide/sib500.png);
+    background-image: url(../media/div-background/wide/sib500.jpg);
+    background-color: #dccce7;
     color: #fff;
+    background-blend-mode: multiply;
     text-shadow: 0 0 10px #000;
 }
 

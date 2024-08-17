@@ -184,38 +184,37 @@
         }
     },
     "SiB": {
-        "title": "SiB",
+        "title": "<b>SiB</b>",
         "subtitle": "Semana del Ingenio BEST",
         "what": {
             "title": "<b>¿Qué es la SiB?</b>",
-            "info1": "La Semana del Ingenio BEST es una competición anual organizada por BEST (Board of European Students of Technology).",
-            "info2": "Esta competición, que antes se llevaba a cabo bajo el nombre de EBEC, tiene el objetivo de promover el desarrollo y la capacitación del trabajo en equipo de los estudiantes mediante la resolución de problemas reales del sector de las ingenierías. Los estudiantes en equipos de 4 personas deben resolver un problema multidisciplinar, que promueve la diversidad entre los estudiantes, involucrando todas las ramas de la ingeniería."
+            "info1": "SiB, Semana del ingenio BEST, es un evento que se desarrolla <b>desde el 4 de octubre al 8 de octubre de 2024</b>, en la que se imparten talleres y workshops, tanto de empresas, como de profesionales y miembros de la asociación sobre distintos temas. Durante la semana se plantean varias <b>competiciones</b> en las que los participantes tienen que utilizar tanto su ingenio como destreza para resolver los problemas propuestos. Estas competiciones serán <b>SiB Creators</b>, <b>SiB Challenge</b> y <b>SiB Hackathon.</b> Después, presentarán los proyectos y se someterán a una votación."
         },
-        "a_challenge": {
-            "title": "<b>Un desafío</b>",
-            "info1": "Después de la resolución del problema, un jurado conformado por profesores de la universidad y de profesionales pertenecientes al sector de las ingenierías, comprobará y evaluará las soluciones planteadas por cada uno de los equipos.",
-            "info2": "Los equipos tendrán que resolver las dudas del jurado durante la exposición que deberán hacer del prototipo funcional desarrollado, donde cada grupo podrá apoyarse de maquetas, apps, presentaciones u otros medios."
-        },
-        "students": {
+        "actividades": {
             "title": "<b>Una semana dedicada al desarrollo de los estudiantes</b>",
-            "workshops": {
-                "title": "<b>Talleres</b>",
-                "info1": "Durante los días 13, 14 y 15 de noviembre se llevarán a cabo múltiples talleres donde expertos provenientes de empresas o miembros titulados de nuestra asociación hablarán a los estudiantes de las distintas formas en las que pueden gestionar el tiempo, resolver conflictos en el espacio de trabajo, liderar a un equipo, proporcionar retroalimentación de manera asetiva, entre otras actividades.",
-                "info2": "Estos talleres tienen como finalidad preparar a los participantes aportándoles conocimientos que puedan poner en práctica el día de la competición. La participación estará abierta a todos los estudiantes de la UVa, ya que al tratarse de habilidades transversales son de utilidad para cualquier alumno."
+            "info1": "Durante la semana se llevarán a cabo múltiples talleres donde expertos provenientes de empresas o miembros titulados de nuestra asociación hablarán a los estudiantes de las distintas formas en las que pueden gestionar el tiempo, resolver conflictos en el espacio de trabajo, liderar a un equipo, proporcionar retroalimentación de manera asetiva, entre otras actividades."
+        },
+        "competiciones": {
+            "title": "<b>Una semana dedicada al desarrollo de los estudiantes</b>",
+            "challenge": {
+                "title": "Challenge",
+                "info": "En esta modalidad, la presentación de un modelo teórico y un plan de proyecto es el grueso del trabajo a la hora de evaluar el proyecto."
             },
-            "competition": {
-                "title": "<b>Competición</b>",
-                "info1": "El día 16 de noviembre cerrará una semana de eventos dedicados al desarrollo profesional y personal de los participantes de la competición.",
-                "info2": "A primera hora de la mañana tendremos un acto de inauguración y se les presentará el enunciado que deberán resolver los participantes. Durante el día se les dará libertad para gestionar su tiempo de la manera que ellos consideren. Haciendo una única pausa obligatoria de una hora para comer y presentarles la asociación BEST, organizadora del evento. ",
-                "info3": "Al final de la tarde, se les pedirá que presenten su trabajo ante el jurado y tras una deliberación, se procederá a la entrega de premios y cierre del evento."
+            "creators": {
+                "title": "Creators",
+                "info": "Se planteará un problema que los participantes tendrán que resolver ideando planificando un proyecto para el que tendrán finalmente que construir una maqueta, la cual sera lo mas valorado por los jueces."
+            },
+            "hackathon": {
+                "title": "Hackathon",
+                "info": "Durante 24 horas los estudiantes deberán resolver uno de los problemas relacionados con ciberseguridad o data management propuestos."
             }
         },
         "information": {
             "title": "<b>Información</b>",
             "info1": "La competición y los talleres son gratuitos.",
-            "info2": "Los talleres se realizarán los días 13, 14 y 15 de noviembre, tanto en la Escuela de Ingenierías Industriales como en la Escuela de Ingeniería Informática y Telecomunicaciones. Las aulas donde se realizarán se anunciarán próximamente en este apartado.",
-            "info3": "La competición se llevará a cabo el 16 de noviembre en el edificio Mergelina de la Escuela de Ingenierías Industriales.",
-            "info4": "Durante la competicón los particpantes tendrán a su disposición una zona de catering para poder comer durante las horas de trabajo. Asimismo, a mediodía se les proporcionará de manera gratuita una comida caliente."
+            "info2": "Los talleres se realizarán a lo largo de la semana del 4 de noviembre, tanto en la Escuela de Ingenierías Industriales como en la Escuela de Ingeniería Informática y Telecomunicaciones. Las aulas donde se realizarán se anunciarán próximamente en este apartado.",
+            "info3": "Las modalidades Creators y Challenge se llevarán a cabo el 7 de noviembre en la Escuela de Ingenierías Industriales mientras que El Hackathon se llevará a cabo entre el día 7 y 8 de noviembre en la escuela de Ingeniería Informática y Telecomunicaciones del Campus Delibes.",
+            "info4": "Durante la competicón los particpantes tendrán a su disposición una zona de catering para poder comer durante las horas de trabajo."
         },
         "inscriptions": {
             "title": "<b>Inscripciones y premios</b>",
@@ -225,7 +224,7 @@
             "comming_up": "PRÓXIMAMENTE"
         },
         "contact": {
-            "by": "<b>Organizado por</b>",
+            "by": "<b>Coordinador</b>",
             "more": "<b>¿Quieres saber más?</b>",
             "us": "Contacta con nosotros"
         }
