@@ -2,7 +2,7 @@
  * To translate pages in client side.
  */
 
-const DEFAULT_LANG = "en";
+const DEFAULT_LANG = "es";
 const SUPPORTED_LANGS = ["en", "es"];
 const LANG_PATH = "javascript/lang/";
 const TRANSLATION_ATTR_NAME = "trd";
