@@ -960,3 +960,21 @@ ul {
     text-align: center;
     vertical-align: middle;
 }
+
+#divCompeticiones {
+    display: flex;
+    justify-content: center;
+}
+
+.logos{
+    display: grid;
+}
+
+
+
+@media (max-width: 720px){
+    #divCompeticiones {
+        display: block;
+        justify-content: center;
+    }
+}
