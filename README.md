@@ -1,16 +1,16 @@
 # Página de BEST Valladolid
 
-##0. Explicación elementos
+## 0. Explicación elementos
 
-##1. Estructura de los archivos
+## 1. Estructura de los archivos
 
-###1.1. HTML
+### 1.1. HTML
 
 Todos los archivos HTML se sitúan en la carpeta principal de la web.
 
 El archivo `index.html` es el punto de entrada a la página (por defecto Apache devuelve el archivo llamado `index.html`).
 
-###1.2. CSS
+### 1.2. CSS
 
 Para los estilos se usan dos hojas de estilo CSS, que se encuentran en la carpeta `css`. Estos archivos son:
 
