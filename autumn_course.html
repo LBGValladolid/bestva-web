@@ -1,29 +1,176 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <link rel="stylesheet" href="css/style.css"/>
   <link rel="stylesheet" href="css/simple-grid.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
   <meta charset="UTF-8">
-  <title>BEST Valladolid: Autumn Course 2023</title>
+  <title>BEST Valladolid: Autumn Course 2025</title>
   <meta name="viewport" content="width=device-width"/>
   <link rel="icon" type="image/png" href="media/favicon.png" sizes="16x16">
   <script src="javascript/functions.js"></script>
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68544803-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-68544803-1');
   </script>
+  
+  <!-- Estilos adicionales para el nuevo diseño -->
+  <style>
+    :root {
+      --best-burgundy: #8C1D40; /* Color vino/burdeos como color principal */
+      --best-burgundy-dark: #6B1731;
+      --best-orange: #FF8200;
+    }
+    
+    .burgundy-background {
+      background-color: var(--best-burgundy);
+      color: white;
+    }
+    
+    .burgundy-text {
+      color: var(--best-burgundy);
+    }
+    
+    .section-title {
+      color: var(--best-burgundy);
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 30px;
+      position: relative;
+      padding-bottom: 15px;
+    }
+    
+    .section-title:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3px;
+      background-color: var(--best-orange);
+    }
+    
+    .btn-best {
+      background-color: var(--best-burgundy);
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      display: inline-block;
+      text-decoration: none;
+    }
+    
+    .btn-best:hover {
+      background-color: var(--best-burgundy-dark);
+      text-decoration: none;
+    }
+    
+    .card {
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: white;
+      transition: transform 0.3s;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .food-icon {
+      color: var(--best-burgundy);
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+    
+    .organizer-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--best-burgundy);
+      margin-bottom: 10px;
+    }
+    
+    .sponsor-img {
+      max-height: 100px;
+      margin: 15px;
+      transition: transform 0.3s;
+    }
+    
+    .sponsor-img:hover {
+      transform: scale(1.05);
+    }
+    
+    .carousel-container {
+      position: relative;
+      margin: 0 auto;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    
+    .carousel-img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    
+    .carousel-caption {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      padding: 15px;
+    }
+    
+    .text-center {
+      text-align: center;
+    }
+    
+    .light-bg {
+      background-color: #f5f5f5;
+    }
+    
+    .hero-section {
+      background: url('media/bca25/banner-bca25.png') center/contain no-repeat;
+      background-color: #fffadd; /* Color de fondo rosado claro */
+      color: white;
+      text-align: center;
+      padding: 100px 0; /* Reducido para controlar mejor la altura */
+      min-height: 40vh; /* Reducido para evitar que sea demasiado alto */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .hero-section h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    
+    @media (max-width: 768px) {
+      .hero-section h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
-
 <body>
 <header>
   <div class="container">
@@ -31,7 +178,6 @@
     <a href="javascript:void(0);" onclick="menu()">
       <img id="menu-icon" src="icon/menu.png" alt="menu">
     </a>
-
     <nav id="menu" class="invisible">
       <ul>
         <li>
@@ -40,7 +186,7 @@
             trd="nav.bestva.participate">PARTICIPA EN BEST</a>
         </li>
         <li>
-          <a class="highlight" href="autumn_course.html" trd="nav.event.ac23">AUTUMN COURSE 2023</a>
+          <a class="highlight" href="autumn_course.html" trd="nav.event.ac23">BEST COURSE IN AUTUMN 2025</a>
         </li>
         <li>
           <!--<a class="" href="index.html" trd="nav.bestva.title">BEST VALLADOLID</a>-->
@@ -64,7 +210,6 @@
         </li>
         <li>
           <a class="" href="SiB.html" trd="nav.SiB.title">SiB</a>
-
         </li>
         <li>
           <a class="" href="cursos.html" trd="nav.courses.title">CURSOS BEST</a>
@@ -82,222 +227,249 @@
   </div>
 </header>
 
-  <div id="header-gap"></div>
-  <!-- para no tener problemas con el menú "fixed" -->
-  <section id="piramide" class="crazy-padding">
-    <div class="container">
-      <h1 class="center" style="font-size:60px;"><b>BEST Course<br>in Autumn 2023</b></h1>
-      <h1 class="center" >I like to move it, move it! <br>Discover the world of transportation</h1>      
-    </div>
-  </section>
+<div id="header-gap"></div>
+<!-- para no tener problemas con el menú "fixed" -->
 
+<!-- Hero Section -->
+<section id="banner" class="hero-section" style="position: relative;">
+  <div style="position: absolute; bottom: 30px; left: 0; right: 0; text-align: center;">
+    <h2 style="margin: 0; color: #8C1D40; text-shadow: 1px 1px 3px rgba(0,0,0,0.9); text-align: center;">Learn about fermentation, aging and food processing in Valladolid</h2>
+    <a href="#apply" class="btn-best" style="margin-top: 20px; display: inline-block;">Apply Now!</a>
+  </div>
+</section>
 
-  <div id="descripcion" class="anchor"></div>
-  <section class="white-background">
-    <div class="container huge-padding">
-      <h1 class="center"><b>Course description</b></h1>
-      <p>
-        When the current general concern is centered, more and more, in climate change and the role that the transportation sector plays in it, it's the time to learn more about it.
-        <br>
-        <br>
-        If you are interested in taking care of the planet, while learning about energy, future technologies focused on transport and want to feel part of the bestie spirit together with LBG Valladolid, join us on this incredible adventure.
-        <br>
-        <br>
-        Would you like to know what the next steps in the world of transport will be?
-        <br>
-        Would you like to know how the new means of transport manage energy?
-        <br>
-        Would you like to know how a city like Valladolid manages public transport?
-        <br>
-        Do you want to discover the world of autonomous cars?
-        <br><br>
-        If you answered  YES to all of these questions, then this is your moment to apply! With us, you will also:<br>
-        - Meet dear Spaniards<br>
-        - Discover a real Spanish city<br>
-        - Experience the BEST spirit of Spain!
-        <br><br>
-        What are you waiting for??
-      </p>
-      <!--
-      <div class="normal-padding"></div>
-      <iframe style="padding: 0 10%" width="80%" height="480px" src="https://www.youtube.com/embed/3PWrKg9fZ2M" frameborder="0" allowfullscreen></iframe>
-      -->
-
-    </div>
-  </section>
-
-  <div id="schedule" class="anchor"></div>
-  <section class="white-background" style="background-color: #eee">
-    <div class="container huge-padding">
-      <h2 class="center"><b>Schedule</b></h2>
-      <h4 class="center">Due to Weekend Trip, we cannot guarantee to arrive in Valladolid before Midday (12 PM) on Monday 11th</h4>
-      <img src="media/ac23/schedule_ac23.png" style="width: 100%" class="normal-padding">
-      
-      
-      <h2 class="center"><b>Survival Guide</b></h2>
-      <a href="media/ac23/survival_guide.pdf" target="_blank">
-        <img src="media/ac17/pdf.png" class="centered normal-padding" style="max-width: 200px">
-      </a>          
-    </div>
-  </section>
+<!-- Course Description -->
+<div id="descripcion" class="anchor"></div>
+<section class="white-background">
+  <div class="container huge-padding">
+    <h1 class="section-title"><b>Course Description</b></h1>
+    <p class="text-center">
+      In a world increasingly concerned about food sustainability, nutrition, and preservation techniques, fermentation offers ancient solutions to modern challenges.
+    </p>
+    <p>
+      Would you like to learn how microorganisms transform raw materials into delicious and nutritious foods?<br>
+      Would you like to discover the science behind cheese, wine, beer, and other fermented foods and drink?<br>
+      Would you like to explore how a city like Valladolid has developed its local food industry?<br>
+      Do you want to understand the future of sustainable food processing technologies?
+    </p>
+    <p>
+      If you answered YES to all of these questions, then this is your moment to apply! With us, you will also:<br>
+      - Meet dear Spaniards<br>
+      - Discover a real Spanish city<br>
+      - Experience the BEST spirit of Spain!<br>
+      - Taste amazing Spanish and international fermented delicacies
+    </p>
+    <p class="text-center">
+      <strong>What are you waiting for?</strong>
+    </p>
     
-  
-  <div id="descripcion" class="anchor"></div>
-  <section class="white-background">
-    <div class="container huge-padding">
-          <h2 class="center"><b>Video</b></h2>
-          <br>
-         <div style="text-align:center;">
-          <iframe width="100%" height="515" src="https://www.youtube.com/embed/L-kPC6eSN9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> class="centered normal-padding" style="max-width: 200px</iframe>
-          </div>
-        </div>      
-  </section>
-  
-
-
-
-
-  
-  <div id="patrocinadores" class="anchor"></div>
-  <section class="white-background">
-    <div class="container">
-      <h2 class="huge-padding center"><b>Partner Institutions</b></h2>
-      <div class="row align-items-center">
-        
-        
-        
-        <div class="col-4">
-          <a href="http://www.uva.es/export/sites/uva/" target=”_blank”>
-            <img class="patrocinador" src="media/ac19/patrocinadores/uva.jpg"/>
-          </a>
+    <div class="row normal-padding">
+      <div class="col-4">
+        <div class="card text-center">
+          <i class="fas fa-flask food-icon"></i>
+          <h3>Academic Activities</h3>
+          <p>Lectures by food science experts and hands-on workshops with fermentation processes</p>
         </div>
-      
-
-        <div class="col-4">
-            <a href="https://www.eii.uva.es/" target=”_blank”>
-              <img class="patrocinador" src="media/ac19/patrocinadores/eii.jpg"/>
-            </a>
-        </div>
-
-
-        <div class="col-4">
-          <a href="https://best.eu.org/courses/welcome.jsp/" target=”_blank”>
-            <img class="patrocinador" src="media/ac23/logobestcurso.png"/>
-          </a>
-        </div>
-
-
-      
       </div>
+      <div class="col-4">
+        <div class="card text-center">
+          <i class="fas fa-building food-icon"></i>
+          <h3>Company Visits</h3>
+          <p>Visit local food companies and factories to see real-world applications of fermentation and food processing</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card text-center">
+          <i class="fas fa-glass-cheers food-icon"></i>
+          <h3>Cultural Program</h3>
+          <p>Experience Spanish culture, traditional food tastings, and exciting social activities with your new friends</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Schedule Section -->
+<div id="schedule" class="anchor"></div>
+<section class="white-background light-bg">
+  <div class="container huge-padding">
+    <h2 class="section-title"><b>Schedule</b></h2>
+    <h4 class="text-center">Due to Weekend Trip, we cannot guarantee to arrive in Valladolid before 2 PM on the last day</h4>
     
-  </section>
+    <!-- Schedule as an image -->
+    <img src="media/bca25/schedule-provisional.png" style="width: 100%" class="normal-padding">
+    
+    <h2 class="section-title"><b>Survival Guide</b></h2>
+    <div class="text-center">
+      <a href="#" class="btn-best">
+        <i class="fas fa-file-pdf"></i> Download Survival Guide (Coming Soon)
+      </a>
+    </div>
+  </div>
+</section>
 
-  <div id="mains" class="anchor"></div>
-  <section class="white-background" style="background-color: #eee">
-    <div class="container">
-      <h1 class="huge-padding center"><b>Main Organizers</b></h1>
-      <div class="row">
-
-
-        <div class="col-5">
-          <img src="media/ac23/alicia.jpg"  class="circular" id="main2">
-          <div class="huge-padding">
-            <h2 class="center">Alicia</h2>
-            <p class="center">
-              <br>
-              <script>
-                var first = "alicialorc7";
-                var last = "gmail.com";
-              </script>
-              <script type="text/javascript">
-                document.write(first + '@' + last);
-              </script>
-            </p>
-          </div>
+<!-- Organizers Section -->
+<div id="mains" class="anchor"></div>
+<section class="white-background">
+  <div class="container">
+    <h1 class="huge-padding section-title"><b>Main Organizers</b></h1>
+    <div class="row">
+      <div class="col-6">
+        <div class="text-center">
+          <img src="media/bca25/alvaro.jpg" class="organizer-img">
+          <h2 style="text-align: center; margin-bottom: 5px;">Álvaro Sacristán</h2>
+          <p style="text-align: center; margin-top: 0;">
+            <script>
+              var first = "alvaro.sacristan";
+              var last = "bestvalladolid.org";
+              document.write(first + '@' + last);
+            </script>
+          </p>
         </div>
-        <div class="col-2"></div>
-        <div class="col-5">
-          <img src="media/ac23/bea.jpeg"class="circular" id="main1">
-          <div class="huge-padding">
-            <h2 class="center">Beatriz</h2>
-            <p class="center">
-              <br>
-              <script>
-                var first = "elvergeldebeatriz";
-                var last = "gmail.com";
-              </script>
-              <script type="text/javascript">
-                document.write(first + '@' + last);
-              </script>
-            </p>
-          </div>
+      </div>
+      <div class="col-6">
+        <div class="text-center">
+          <img src="media/bca25/isabel.jpg" class="organizer-img">
+          <h2 style="text-align: center; margin-bottom: 5px;">Isabel Villén</h2>
+          <p style="text-align: center; margin-top: 0;">
+            <script>
+              var first = "isabel.villen";
+              var last = "bestvalladolid.org";
+              document.write(first + '@' + last);
+            </script>
+          </p>
         </div>
       </div>
     </div>
-  </section>
-  
+  </div>
+</section>
 
-  
-  <section class="white-background" >
-    <div class="container">
-      <h1 class="huge-padding center"><b>Core Team</b></h1>
-      <div class="row">
-        <div class="col-3">
-          <img src="media/ac23/alvaro.jpg"  class="circular" id="main2">
-          <div class="huge-padding">
-            <h3 class="center">Álvaro</h3>
-            <br>
-            <h4 class="center">Food Responsible</h4>
-          </div>
-          
+<!-- Core Team Section -->
+<section class="white-background light-bg">
+  <div class="container">
+    <h1 class="huge-padding section-title"><b>Core Team</b></h1>
+    <div class="row">
+      <div class="col-4">
+        <div class="text-center">
+          <!-- <img src="media/placeholder/luis.jpg" class="organizer-img"> -->
+          <h3 style="text-align: center; margin-bottom: 5px;">Luis Prieto</h3>
+          <h4 style="text-align: center; margin-top: 0;">Social Responsible</h4>
         </div>
-        <div class="col-3">
-          <img src="media/ac23/jorge.jpg"  class="circular" id="main2">
-          <div class="huge-padding">
-            <h3 class="center">Jorge</h3>
-            <br>
-            <h4 class="center">Social Responsible</h4>
-          </div>        
+      </div>
+      <div class="col-4">
+        <div class="text-center">
+          <!-- <img src="media/placeholder/marco.jpg" class="organizer-img"> -->
+          <h3 style="text-align: center; margin-bottom: 5px;">Marco Sánchez</h3>
+          <h4 style="text-align: center; margin-top: 0;">Participants Responsible</h4>
         </div>
-        <div class="col-3">
-          <img src="media/ac23/paulah.jpeg"  class="circular" id="main2">
-          <div class="huge-padding">
-            <h3 class="center">Paula H</h3>
-            <br>
-            <h4 class="center">Pax Responsible</h4>
-          </div>
-
-          
+      </div>
+      <div class="col-4">
+        <div class="text-center">
+          <!-- <img src="media/placeholder/eddie.jpg" class="organizer-img"> -->
+          <h3 style="text-align: center; margin-bottom: 5px;">Eddie López</h3>
+          <h4 style="text-align: center; margin-top: 0;">Academic Responsible</h4>
         </div>
-        <div class="col-3">
-          <img src="media/ac23/paulau.jpeg"  class="circular" id="main2">
-          <div class="huge-padding" text-align:center>
-            <h3 class="center">Paula U</h3>
-            <br>
-            <h4 class="center">Academic Responsible</h4>
-          </div>         
-        </div>
-
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-
-  <section id="portatil">
-    <div class="container iinmense-padding row">
-      <div class="col-2"></div>
-      <div class="col-10">
-        <h1><b>Want to know about other BEST Courses?</b></h1>
-        <h3>Find out more info at <a href="http://www.best.eu.org/courses" style="color: white" target="_blank">www.best.eu.org/courses</a></h3>
+<!-- Previous Courses Carousel -->
+<!-- <section class="white-background">
+  <div class="container huge-padding">
+    <h2 class="section-title"><b>Previous Courses</b></h2>
+    
+    <div class="carousel-container">
+      <img src="media/placeholder/previous-course.jpg" class="carousel-img">
+      <div class="carousel-caption">
+        <h3>Autumn Course 2024</h3>
+        <p>Renewable Energy Solutions</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>  -->
 
-  <footer>
-    <p class="center">&copy; 2024 BEST Valladolid</p>
-  </footer>
-</body>
+<!-- Apply Section -->
+<div id="apply" class="anchor"></div>
+<section class="white-background light-bg">
+  <div class="container huge-padding">
+    <h2 class="section-title"><b>Apply Now</b></h2>
+    <p class="text-center">Stay tuned for application, for more info visit <a href="https://www.best-eu.org/courses" target="_blank">www.best-eu.org/courses</a></p>
+    
+    <div class="card" style="max-width: 800px; margin: 0 auto;">
+      <h3 class="burgundy-text">Who can apply?</h3>
+      <ul>
+        <li><i class="fas fa-check-circle" style="color: var(--best-burgundy);"></i> University students from BEST member countries</li>
+        <li><i class="fas fa-check-circle" style="color: var(--best-burgundy);"></i> Students from any field of technology or science</li>
+        <li><i class="fas fa-check-circle" style="color: var(--best-burgundy);"></i> Students interested in food technology and fermentation</li>
+        <li><i class="fas fa-check-circle" style="color: var(--best-burgundy);"></i> Students looking for an international experience</li>
+      </ul>
+    </div>
+    
+    <div class="text-center normal-padding">
+      <a href="https://www.best-eu.org/courses" target="_blank" class="btn-best">Find BEST Courses</a>
+    </div>
+  </div>
+</section>
+
+<!-- Want to know more section -->
+<section id="portatil">
+  <div class="container iinmense-padding row">
+    <div class="col-2"></div>
+    <div class="col-10">
+      <h1><b>Want to know about other BEST Courses?</b></h1>
+      <h3>Find out more info at <a href="http://www.best.eu.org/courses" style="color: white" target="_blank">www.best.eu.org/courses</a></h3>
+    </div>
+  </div>
+</section>
+
+<!-- Sponsors Section -->
+<!-- <div id="patrocinadores" class="anchor"></div>
+<section class="white-background">
+  <div class="container">
+    <h2 class="huge-padding section-title"><b>Partner Institutions</b></h2>
+    <div class="row align-items-center">
+      <div class="col-4">
+        <a href="http://www.uva.es/export/sites/uva/" target="_blank">
+          <img class="sponsor-img" src="media/placeholder/uva.jpg"/>
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="https://www.eii.uva.es/" target="_blank">
+          <img class="sponsor-img" src="media/placeholder/eii.jpg"/>
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="https://best.eu.org/courses/welcome.jsp/" target="_blank">
+          <img class="sponsor-img" src="media/placeholder/best-courses.png"/>
+        </a>
+      </div>
+    </div>
+    
+    <h2 class="huge-padding section-title"><b>Sponsors & Collaborators</b></h2>
+    <div class="row align-items-center">
+      <div class="col-3">
+        <img class="sponsor-img" src="media/placeholder/sponsor1.jpg"/>
+      </div>
+      <div class="col-3">
+        <img class="sponsor-img" src="media/placeholder/sponsor2.jpg"/>
+      </div>
+      <div class="col-3">
+        <img class="sponsor-img" src="media/placeholder/sponsor3.jpg"/>
+      </div>
+      <div class="col-3">
+        <img class="sponsor-img" src="media/placeholder/sponsor4.jpg"/>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<footer>
+  <p class="center">&copy; 2025 BEST Valladolid</p>
+</footer>
+
 <script>
   loadLangFile();
 </script>
+</body>
 </html>
